@@ -5,6 +5,7 @@ The translated content lives in the *-pt.qmd source pages.
 """
 import os
 import re
+import hashlib
 from pathlib import Path
 
 OUTPUT = Path(os.environ.get("QUARTO_PROJECT_OUTPUT_DIR", "_site"))
@@ -28,6 +29,12 @@ for page in PAGES:
         if not path.exists():
             continue
         text = path.read_text()
+        # Refresh page-specific CSS after edits, including in local browser previews.
+        def version_style(match):
+            asset = OUTPUT / match[2]
+            digest = hashlib.sha256(asset.read_bytes()).hexdigest()[:10]
+            return match[1] + match[2] + '?v=' + digest + match[3]
+        text = re.sub(r'(href=")(about-page\.css|services-page\.css)(?:\?v=[a-f0-9]+)?(")', version_style, text)
         # Remove generated additions before processing an existing output again.
         text = re.sub(r'<style id="language-switch-style">.*?</style>', '', text, flags=re.S)
         text = re.sub(r'<link data-language-alternate="true"[^>]*>\s*', '', text)

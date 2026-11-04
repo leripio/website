@@ -1,5 +1,7 @@
 #title-block-header { display: none; }
-.about-wrap { max-width: 1080px; margin: 0 auto; padding: 3rem 1.5rem; font-family: 'Plus Jakarta Sans', system-ui, sans-serif; }
+.about-wrap { max-width: 1080px; margin: 0 auto; padding: 3rem 1.5rem 1rem; font-family: 'Plus Jakarta Sans', system-ui, sans-serif; }
+#quarto-content.page-rows-contents { grid-template-rows: [content-top] minmax(max-content, 1fr) [content-bottom] minmax(1rem, max-content) [page-bottom]; }
+main#quarto-document-content { margin-bottom: 0; }
 .about-wrap h1, .about-wrap h2 { font-family: inherit; color: var(--heading); border: 0; padding: 0; }
 .about-wrap a { text-underline-offset: .2em; }
 .about-wrap a:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
@@ -30,7 +32,7 @@
   .about-card-grid { grid-template-columns: 1fr; }
 }
 @media (max-width: 540px) {
-  .about-wrap { padding: 1.75rem .75rem; }
+  .about-wrap { padding: 1.75rem .75rem 1rem; }
   .about-intro { grid-template-columns: 1fr; gap: 1.25rem; align-items: start; }
   .about-portrait { max-width: 110px; }
   .about-identity h1 { font-size: 1.6rem; margin-bottom: .5rem; }
