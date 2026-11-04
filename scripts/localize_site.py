@@ -34,7 +34,7 @@ for page in PAGES:
             asset = OUTPUT / match[2]
             digest = hashlib.sha256(asset.read_bytes()).hexdigest()[:10]
             return match[1] + match[2] + '?v=' + digest + match[3]
-        text = re.sub(r'(href=")(about-page\.css|services-page\.css)(?:\?v=[a-f0-9]+)?(")', version_style, text)
+        text = re.sub(r'(href=")(about-page\.css|services-page\.css|resume-page\.css)(?:\?v=[a-f0-9]+)?(")', version_style, text)
         # Remove generated additions before processing an existing output again.
         text = re.sub(r'<style id="language-switch-style">.*?</style>', '', text, flags=re.S)
         text = re.sub(r'<link data-language-alternate="true"[^>]*>\s*', '', text)

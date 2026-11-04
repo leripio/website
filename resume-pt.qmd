@@ -1,43 +1,35 @@
 ---
-lang: pt-BR
-description: "Dados, Modelagem e Engenharia de Pesquisa"
 title: ""
+pagetitle: "Currículo"
+lang: pt-BR
+page-layout: full
 format:
   html:
-    css: [fonts/fontawesome-local.css, cv_styles.css]
+    css: resume-page.css
     toc: false
-    embed-resources: false
-    toc-depth: 2
-    page-layout: full
-execute:
-  echo: false
+    anchor-sections: false
 ---
 
-::: {.cv}
+::: {.resume-wrap}
 
-::: {.header}
+```{=html}
+<div class="resume-header">
+  <span class="section-kicker">Currículo</span>
+  <h1>João Renato Leripio</h1>
+  <p class="resume-role">Previsão, Modelagem Estatística e Ciência de Dados</p>
+  <div class="resume-contact">
+    <span>Brasileiro</span>
+    <a href="mailto:joao@rleripio.com">joao@rleripio.com</a>
+    <a href="https://www.linkedin.com/in/leripiorenato/">LinkedIn ↗</a>
+    <a href="https://github.com/leripio">GitHub ↗</a>
+    <a href="https://www.rleripio.com">rleripio.com ↗</a>
+  </div>
+</div>
+```
 
-# João Renato Leripio
+::: {.resume-summary-grid}
 
-::: {.subtitle}
-Previsão, Modelagem Estatística e Ciência de Dados
-:::
-
-::: {.contact}
-
-<span><i class="fa-solid fa-location-dot"></i>Brasileiro</span>
-
-<span><i class="fa-solid fa-envelope"></i> [joao@rleripio.com](mailto:joao@rleripio.com)</span>
-
-<span><i class="fa-brands fa-linkedin"></i> [leripiorenato](https://www.linkedin.com/in/leripiorenato/)</span>
-
-<span><i class="fa-brands fa-github"></i> [leripio](https://github.com/leripio)</span>
-
-<span><i class="fa-solid fa-globe"></i> [rleripio.com](https://www.rleripio.com)</span>
-
-:::
-
-:::
+::: {.resume-panel}
 
 ## Perfil
 
@@ -45,6 +37,10 @@ Previsão, Modelagem Estatística e Ciência de Dados
 - Minha formação em economia e ciência de dados, somada à experiência com dados alternativos, não estruturados e de alta dimensão, amplia os problemas quantitativos com os quais posso trabalhar e as perspectivas que trago para eles.
 - Combino esse conhecimento com práticas de engenharia de dados e desenvolvimento de software para construir pipelines analíticos confiáveis e soluções de apoio à decisão.
 - Autor de [*R for Economic Research*](https://book.rleripio.com).
+
+:::
+
+::: {.resume-panel}
 
 ## Áreas de atuação
 
@@ -58,13 +54,19 @@ Previsão, Modelagem Estatística e Ciência de Dados
 
 **Tecnologias:** R · Python · Shiny · Quarto · DuckDB · PostgreSQL · dbt · Git · Docker · Shell · CLI Tools
 
+:::
+
+:::
+
+::: {.resume-experience}
+
 ## Experiência profissional
 
-::: {.entry}
+::: {.resume-entry}
 
-::: {.entry-header}
+::: {.resume-entry-header}
 
-::: {.entry-title}
+::: {.resume-entry-title}
 
 ### Kapitalo Investimentos
 
@@ -72,7 +74,7 @@ Previsão, Modelagem Estatística e Ciência de Dados
 
 :::
 
-::: {.meta}
+::: {.resume-meta}
 São Paulo, Brasil · Abr/2022 – Set/2026
 :::
 
@@ -87,11 +89,11 @@ Uma das principais gestoras independentes de fundos multimercado do Brasil, com 
 
 :::
 
-::: {.entry}
+::: {.resume-entry}
 
-::: {.entry-header}
+::: {.resume-entry-header}
 
-::: {.entry-title}
+::: {.resume-entry-title}
 
 ### Itaú Asset Management
 
@@ -99,7 +101,7 @@ Uma das principais gestoras independentes de fundos multimercado do Brasil, com 
 
 :::
 
-::: {.meta}
+::: {.resume-meta}
 São Paulo, Brasil · Out/2019 – Mar/2022
 :::
 
@@ -113,11 +115,11 @@ A maior gestora privada de recursos no Brasil, com aproximadamente US$240 bilhõ
 - Desenvolvi indicadores de atividade econômica e inflação com dados alternativos e não estruturados, ampliando as informações disponíveis para análise macroeconômica.
 :::
 
-::: {.entry}
+::: {.resume-entry}
 
-::: {.entry-header}
+::: {.resume-entry-header}
 
-::: {.entry-title}
+::: {.resume-entry-title}
 
 ### Instituto de Pesquisa e Estatística do Distrito Federal
 
@@ -125,7 +127,7 @@ A maior gestora privada de recursos no Brasil, com aproximadamente US$240 bilhõ
 
 :::
 
-::: {.meta}
+::: {.resume-meta}
 Brasília, Brasil · Out/2017 – Set/2019
 :::
 
@@ -139,10 +141,25 @@ Instituto público de pesquisa responsável por estatísticas socioeconômicas e
 
 :::
 
+:::
+
+::: {.resume-details-grid}
+
+::: {.resume-panel}
+
 ## Formação
 
-**Mestrado em Economia**, Universidade Federal Fluminense · 2017  
+**Mestrado em Economia**, Universidade Federal Fluminense · 2017
+
+- Aprovado em segundo lugar no processo seletivo.
+- Bolsista da CAPES.
+- Área de pesquisa: macroeconomia aplicada.
+
 **Bacharelado em Economia**, Universidade Federal Fluminense · 2013
+
+:::
+
+::: {.resume-panel}
 
 ## Idiomas
 
@@ -151,9 +168,30 @@ Instituto público de pesquisa responsável por estatísticas socioeconômicas e
 - **Francês**: Intermediário (B1) – Facilidade com conversas cotidianas, viagens e leitura de textos gerais.
 - **Espanhol**: Básico (A2) – Compreensão básica e comunicação introdutória.
 
+:::
+
+::: {.resume-panel}
+
 ## Publicação
 
-Autor de *R for Economic Research – Essential Tools for Modern Economic Analysis*, um guia prático de ciência de dados, modelagem estatística, séries temporais e previsão para pesquisa aplicada. O livro está disponível gratuitamente em *book.rleripio.com* e recebeu mais de 56.000 visualizações de leitores em mais de 50 países desde seu lançamento, em abril de 2023.
+```{=html}
+<div class="resume-publication">
+  <span class="section-kicker">Autor</span>
+  <h3>R for Economic Research</h3>
+  <p class="publication-subtitle">Essential Tools for Modern Economic Analysis</p>
+  <p>Um guia prático de ciência de dados, modelagem estatística, séries temporais e previsão para pesquisa aplicada.</p>
+  <dl class="publication-metrics">
+    <div><dt>Visualizações</dt><dd>56.000+</dd></div>
+    <div><dt>Países alcançados</dt><dd>50+</dd></div>
+  </dl>
+  <p class="publication-note">Desde o lançamento, em abril de 2023.</p>
+  <a class="publication-link" href="https://book.rleripio.com">Leia gratuitamente online ↗</a>
+</div>
+```
+
+:::
+
+::: {.resume-panel}
 
 ## Apresentações selecionadas
 
@@ -162,5 +200,9 @@ Autor de *R for Economic Research – Essential Tools for Modern Economic Analys
 - **Nowcasting Inflation in Brazil Using Web Data** — International Symposium on Forecasting · Charlottesville · 2023
 
 - **Real-Time Forecasting of COVID-19 Cases Across US Regions** — International Symposium on Forecasting · Remoto · 2020
+
+:::
+
+:::
 
 :::

@@ -1,0 +1,63 @@
+/* Web résumé: use the website's typography and theme variables, scoped here. */
+#title-block-header { display: none; }
+.resume-wrap { max-width: 1080px; margin: 0 auto; padding: 3rem 1.5rem 1rem; color: var(--text); font-family: 'Plus Jakarta Sans', system-ui, sans-serif; }
+.resume-wrap h1, .resume-wrap h2, .resume-wrap h3 { font-family: inherit; color: var(--heading); border: 0; padding: 0; }
+.resume-wrap h1 { font-size: clamp(2rem, 3.8vw, 2.9rem); line-height: 1.15; margin: .4rem 0 .7rem; letter-spacing: -.045em; }
+.resume-wrap h2 { font-size: 1.35rem; line-height: 1.35; margin: 0 0 1.2rem; letter-spacing: -.025em; }
+.resume-wrap h3 { font-size: 1.12rem; line-height: 1.4; margin: 0 0 .4rem; }
+.resume-wrap p, .resume-wrap li { color: var(--text-muted); font-size: .9rem; line-height: 1.75; }
+.resume-wrap p { margin: 0 0 .85rem; }
+.resume-wrap strong { font-weight: 600; color: var(--text); }
+.resume-wrap a { color: var(--accent); text-underline-offset: .2em; }
+.resume-wrap a:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
+.resume-wrap ul { padding-left: 1.15rem; margin: 0; }
+.resume-wrap li { margin-bottom: .6rem; }
+.resume-wrap li:last-child { margin-bottom: 0; }
+.resume-header { margin-bottom: 2rem; }
+.resume-header .resume-role { color: var(--text); font-size: 1rem; margin: 0 0 1.1rem; }
+.resume-contact { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 1.25rem; color: var(--text-muted); font-size: .8rem; }
+.resume-contact a { font-weight: 500; text-decoration: none; }
+.resume-contact a:hover { text-decoration: underline; }
+.resume-summary-grid { display: grid; grid-template-columns: 1.1fr 1fr; gap: 1.25rem; margin-bottom: 2.5rem; }
+.resume-panel, .resume-entry { min-width: 0; background: var(--bg-elevated); border: 1px solid var(--border); border-radius: 12px; padding: 1.75rem; }
+.resume-summary-grid > .resume-panel:first-child { background: var(--accent-soft-bg); border-color: var(--accent-soft-border); }
+.resume-panel > section > :last-child { margin-bottom: 0; }
+.resume-panel p:last-child { margin-bottom: 0; }
+.resume-panel ul + p { margin-top: 1.25rem; }
+.resume-experience { margin-bottom: 2.5rem; }
+.resume-entry { margin-bottom: 1rem; }
+.resume-entry:last-child { margin-bottom: 0; }
+.resume-entry-header { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 1rem 2rem; align-items: start; margin-bottom: 1.1rem; }
+.resume-entry-title p { margin: 0; }
+.resume-entry-title strong { color: var(--accent); font-size: .86rem; }
+.resume-meta p { font-size: .78rem; color: var(--text-muted); margin: .2rem 0 0; }
+.resume-entry > p { font-size: .83rem; }
+.resume-details-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; }
+.resume-publication h3 { margin: .4rem 0 .35rem; font-size: 1.2rem; }
+.resume-publication .publication-subtitle { font-size: .8rem; margin-bottom: 1.1rem; }
+.publication-metrics { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1.3rem 0 .5rem; }
+.publication-metrics dt { color: var(--text-muted); font-size: .75rem; font-weight: 400; }
+.publication-metrics dd { color: var(--accent); font-size: 1.4rem; font-weight: 600; margin: .2rem 0 0; }
+.resume-publication .publication-note { font-size: .75rem; margin-bottom: 1.25rem; }
+.publication-link { font-size: .85rem; font-weight: 600; text-decoration: none; }
+.publication-link:hover { text-decoration: underline; }
+@media (max-width: 800px) {
+  .resume-summary-grid, .resume-details-grid { grid-template-columns: 1fr; }
+  .resume-entry-header { grid-template-columns: 1fr; gap: .4rem; }
+}
+@media (max-width: 540px) {
+  .resume-wrap { padding: 1.75rem .75rem 1rem; }
+  .resume-panel, .resume-entry { padding: 1.4rem; }
+  .resume-contact { gap: .5rem 1rem; }
+}
+@media print {
+  #quarto-header, .nav-footer, #quarto-search { display: none !important; }
+  body { background: white !important; }
+  .resume-wrap { max-width: none; padding: 0; color: #111; }
+  .resume-wrap h1, .resume-wrap h2, .resume-wrap h3, .resume-wrap strong { color: #111; }
+  .resume-wrap p, .resume-wrap li, .resume-contact { color: #333; font-size: 10pt; }
+  .resume-wrap a, .resume-entry-title strong { color: #333; text-decoration: none; }
+  .resume-summary-grid, .resume-details-grid { display: block; }
+  .resume-panel, .resume-entry { background: white !important; border-color: #ddd !important; padding: 1rem; margin-bottom: 1rem; break-inside: avoid; }
+  .resume-header, .resume-wrap h2, .resume-entry-header { break-after: avoid; }
+}
