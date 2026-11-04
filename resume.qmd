@@ -172,7 +172,7 @@ A government research institute providing socioeconomic statistics and policy an
 
 ::: {.resume-panel}
 
-## Publication
+## Book {#publication}
 
 ```{=html}
 <div class="resume-publication">

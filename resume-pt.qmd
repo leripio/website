@@ -172,7 +172,7 @@ Instituto público de pesquisa responsável por estatísticas socioeconômicas e
 
 ::: {.resume-panel}
 
-## Publicação
+## Livro {#publicação}
 
 ```{=html}
 <div class="resume-publication">
