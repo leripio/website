@@ -16,8 +16,6 @@ website:
     left:
       - href: index.qmd
         text: About
-      - href: services.qmd
-        text: Work with me
       - href: https://r4er.rleripio.com
         text: Book
         target: _blank
@@ -25,6 +23,8 @@ website:
         text: Talks
       - href: resume.qmd
         text: Resume
+      - href: services.qmd
+        text: How I can help
 
   page-footer:
     center: "© 2026 João R. Leripio · Built with [Quarto](https://quarto.org)"

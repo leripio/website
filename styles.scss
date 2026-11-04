@@ -374,3 +374,10 @@ hr { border-color: var(--border); margin: 2rem 0; }
 @media (max-width: 640px) {
   .profile-section { padding: 2rem 1.25rem; }
 }
+
+/* Subtle emphasis for the final navigation item in either language. */
+.navbar-nav .nav-link[href$="services.html"],
+.navbar-nav .nav-link[href$="services-pt.html"] {
+  color: var(--accent) !important;
+  font-weight: 600 !important;
+}

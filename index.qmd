@@ -1,102 +1,69 @@
 ---
+lang: en
 page-layout: full
-body-classes: home
+format:
+  html:
+    css: about-page.css
+description: "Data, Modeling & Research Engineering"
 ---
 
 ```{=html}
-<section class="profile-section">
-<div class="profile-grid">
+<div class="about-wrap">
+  <section class="about-intro" aria-labelledby="profile-name">
+    <div class="about-portrait">
+      <img src="images/profile.jpg" alt="João R. Leripio" width="200" height="200">
+    </div>
+    <div class="about-identity">
+      <h1 id="profile-name">João R. Leripio</h1>
+      <p class="about-role">Forecasting, Statistical Modeling & Data Science</p>
+      <div class="about-bio"><p>I specialize in forecasting and statistical modeling, with a focus on time series. Drawing on economics and data science, I build reliable models and reproducible analytical workflows to support research and decision-making. <a class="about-linkedin" href="https://linkedin.com/in/leripiorenato">Connect with me on LinkedIn ↗</a></p></div>
+    </div>
 
-<div class="profile-left">
-  <img
-    src="images/profile.jpg"
-    class="profile-photo"
-    alt="João R. Leripio"
-  >
+  </section>
 
-  <h1 class="profile-name">João R. Leripio</h1>
+  <div class="about-card-grid">
+    <section class="about-card about-work-card" id="work-with-me" aria-labelledby="work-title">
+      <span class="section-kicker">Training · Consulting · Projects</span>
+      <h2 id="work-title">How I can help</h2>
+      <p>Have an analytical challenge or a team you’d like to develop?
+    I offer training, consulting, and project development in forecasting,
+    statistical modeling, data science, and research workflows,
+    with support tailored to your goals.</p>
+      <a class="about-card-link" href="services.qmd">Explore how we can work together ↗</a>
+    </section>
 
-  <p class="profile-role">
-    Forecasting, Statistical Modeling & Data Science
-  </p>
+    <section class="about-card" aria-labelledby="book-title">
+      <span class="section-kicker">Book</span>
+      <h2 id="book-title">R for Economic Research (2e)</h2>
+      <div class="about-book-content">
+        <p>The second edition, released in September 2025, includes new chapters on Bayesian inference, nowcasting, and working with big data.</p>
+        <a href="https://book.rleripio.com" class="about-book-cover" aria-label="R for Economic Research"><img src="images/cover.png" alt="R for Economic Research — 2nd Edition" width="100" height="150" loading="lazy"></a>
+      </div>
+      <div class="about-book-links">
+        <a class="about-card-link" href="https://book.rleripio.com">Read online for free ↗</a>
+        <a class="about-card-link" href="https://www.amazon.com.br/Economic-Research-Essential-economic-analysis/dp/B0G5YD9HD3">Buy on Amazon ↗</a>
+      </div>
+    </section>
 
-  <div class="profile-links">
-    <a
-      href="https://github.com/leripio"
-      class="cta-link"
-    >
-      <i class="bi bi-github"></i> GitHub
-    </a>
-
-    <a
-      href="https://linkedin.com/in/leripiorenato"
-      class="cta-link"
-    >
-      <i class="bi bi-linkedin"></i> LinkedIn
-    </a>
-  </div>
-</div>
-
-<div class="profile-right">
-
-<div class="profile-bio">
-  <span class="section-kicker">About</span>
-
-  <p>
-    I specialize in forecasting and statistical modeling, with a particular focus on time series.
-  </p>
-
-  <p>
-  My background in economics and data science, together with experience working with alternative, unstructured, and high-dimensional data, broadens the range of quantitative problems I can tackle and the perspectives I bring to them.
-
-  </p>
-  I combine this expertise with data engineering and software development practices to build reliable analytical pipelines and decision-support solutions.
-  <p>
-  
-  </p>
-  
-</div>
-
-<div class="profile-block">
-  <span class="section-kicker">Currently working on...</span>
-
-  <p>
-    A new book about how analysts can move beyond one-off analyses
-    and build reliable, long-lived analytical projects. The book brings
-    together practical lessons on organizing, automating, and deploying
-    data pipelines and analytical products for applied research.
-  </p>
-</div>
-
-<div class="profile-block">
-  <span class="section-kicker">Latest talk</span>
-
-  <p>
-    <strong>Nowcasting When Predictors Keep Changing</strong>,
-    presented at the 46th International Symposium on Forecasting.
+    <section class="about-card" aria-labelledby="talk-title">
+      <span class="section-kicker">Latest talk</span>
+      <h2 id="talk-title">Nowcasting When Predictors Keep Changing</h2>
+      <p>Presented at the 46th International Symposium on Forecasting.
     The talk explores how to produce reliable forecasts from
     high-dimensional datasets whose composition changes continuously
     over time.
-    <a href="talks.qmd">See all talks ↗</a>
-  </p>
-</div>
+    </p>
+      <a class="about-card-link" href="talks.qmd">See all talks ↗</a>
+    </section>
 
-<div class="profile-block">
-  <span class="section-kicker">R for Economic Research (2e)</span>
-
-  <p>
-    The second edition of <em>R for Economic Research</em> was released
-    in September 2025. The book offers a practical guide to modern
-    economic analysis, with a strong emphasis on data workflows,
-    statistical modeling, time series, and forecasting. It is
-    <a href="https://book.rleripio.com">available online for free</a>
-    and can also be purchased on
-    <a href="https://www.amazon.com.br/Economic-Research-Essential-economic-analysis/dp/B0G5YD9HD3">Amazon</a>.
-  </p>
+    <section class="about-card" aria-labelledby="current-title">
+      <span class="section-kicker">Currently working on...</span>
+      <h2 id="current-title">Building better analytical projects</h2>
+      <p>A new book about how analysts can move beyond one-off analyses
+    and build reliable, long-lived analytical projects. The book brings
+    together practical lessons on organizing, automating, and deploying
+    data pipelines and analytical products for applied research.</p>
+    </section>
+  </div>
 </div>
-
-</div>
-
-</div>
-</section>
 ```

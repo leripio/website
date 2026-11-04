@@ -1,0 +1,40 @@
+#title-block-header { display: none; }
+.about-wrap { max-width: 1080px; margin: 0 auto; padding: 3rem 1.5rem; font-family: 'Plus Jakarta Sans', system-ui, sans-serif; }
+.about-wrap h1, .about-wrap h2 { font-family: inherit; color: var(--heading); border: 0; padding: 0; }
+.about-wrap a { text-underline-offset: .2em; }
+.about-wrap a:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
+.about-wrap section[id] { scroll-margin-top: 5rem; }
+.about-intro { display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 1.4rem 2rem; align-items: center; margin: .5rem 0 1.75rem; }
+.about-portrait > img { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 12px; border: 1px solid var(--border); }
+.about-identity h1 { margin: 0 0 .65rem; font-size: clamp(2rem, 3.8vw, 2.9rem); line-height: 1.1; letter-spacing: -.045em; }
+.about-bio { margin-top: .9rem; }
+.about-linkedin { color: var(--accent); font-size: .85rem; font-weight: 600; text-decoration: none; }
+.about-linkedin:hover { text-decoration: underline; }
+.about-bio p { margin: 0 0 .8rem; color: var(--text-muted); font-size: .92rem; line-height: 1.75; }
+.about-identity .about-role { color: var(--text); font-size: 1rem; margin: 0; }
+.about-bio p:last-child { margin-bottom: 0; }
+.about-card-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; }
+.about-card { border: 1px solid var(--border); border-radius: 12px; padding: 1.75rem; background: var(--bg-elevated); display: flex; flex-direction: column; align-items: flex-start; }
+.about-card h2 { font-size: 1.35rem; line-height: 1.35; margin: .35rem 0 .9rem; letter-spacing: -.025em; }
+.about-card p { font-size: .91rem; color: var(--text-muted); line-height: 1.75; margin: 0; }
+.about-card p a { color: var(--text); font-weight: 500; }
+.about-card p a:hover { color: var(--accent); }
+.about-work-card { background: var(--accent-soft-bg); border-color: var(--accent-soft-border); }
+.about-card-link { display: inline-block; margin-top: auto; padding-top: 1.5rem; color: var(--accent); font-size: .86rem; font-weight: 600; text-decoration: none; }
+.about-card-link:hover { text-decoration: underline; }
+.about-book-content { display: grid; grid-template-columns: minmax(0, 1fr) 90px; gap: 1.25rem; align-items: start; }
+.about-book-cover img { display: block; width: 100%; height: auto; border-radius: 3px; border: 1px solid var(--border); }
+.about-book-links { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; margin-top: auto; padding-top: 1.5rem; }
+.about-book-links .about-card-link { margin-top: 0; padding-top: 0; }
+@media (max-width: 800px) {
+  .about-card-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 540px) {
+  .about-wrap { padding: 1.75rem .75rem; }
+  .about-intro { grid-template-columns: 1fr; gap: 1.25rem; align-items: start; }
+  .about-portrait { max-width: 110px; }
+  .about-identity h1 { font-size: 1.6rem; margin-bottom: .5rem; }
+  .about-identity .about-role { font-size: .85rem; }
+  .about-card { padding: 1.4rem; }
+  .about-book-content { grid-template-columns: minmax(0, 1fr) 70px; gap: 1rem; }
+}

@@ -1,6 +1,5 @@
 ---
 lang: pt-BR
-description: "Dados, Modelagem e Engenharia de Pesquisa"
 title: "Palestras"
 listing:
   id: talks-listing

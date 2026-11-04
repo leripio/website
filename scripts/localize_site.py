@@ -9,7 +9,7 @@ from pathlib import Path
 
 OUTPUT = Path(os.environ.get("QUARTO_PROJECT_OUTPUT_DIR", "_site"))
 PAGES = ("index", "services", "talks", "resume", "thank-you")
-LABELS = {"About": "Sobre", "Work with me": "Trabalhe comigo", "Book": "Livro",
+LABELS = {"About": "Sobre", "How I can help": "Como posso ajudar", "Book": "Livro",
           "Talks": "Palestras", "Resume": "Currículo"}
 STYLE = """<style id="language-switch-style">
 .language-switch { display:inline-flex; align-items:center; gap:.35rem; margin-right:.65rem;
@@ -59,7 +59,7 @@ for page in PAGES:
             header = header.replace('title="Toggle dark mode"', 'title="Alternar tema claro e escuro"')
             header = header.replace('title="Search"', 'title="Pesquisar"')
         other_suffix = "" if portuguese else "-pt"
-        label = "Mudar para inglês" if portuguese else "Switch to Portuguese"
+        label = "Read in English" if portuguese else "Ver em português"
         other_language = "en" if portuguese else "pt-BR"
         button_text = "EN" if portuguese else "PT"
         flag = "🇬🇧" if portuguese else "🇧🇷"
