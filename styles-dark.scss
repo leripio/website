@@ -1,0 +1,368 @@
+/*-- scss:defaults --*/
+$primary:                  #22d3ee;
+$body-bg:                  #0a0f1a;
+$body-color:                #dbe4f0;
+$link-color:                #22d3ee;
+$font-family-sans-serif:   'Plus Jakarta Sans', system-ui, sans-serif;
+$headings-font-family:     'Space Grotesk', system-ui, sans-serif;
+$headings-font-weight:     700;
+$headings-color:           #f1f5f9;
+$navbar-dark-color:        #8993a8;
+$navbar-dark-hover-color:  #22d3ee;
+$navbar-dark-active-color: #22d3ee;
+$navbar-dark-brand-color:  #f1f5f9;
+$navbar-light-color:        #8993a8;
+$navbar-light-hover-color:  #22d3ee;
+$navbar-light-active-color: #22d3ee;
+$navbar-light-brand-color:  #f1f5f9;
+$border-color:             #1f2937;
+
+/*-- scss:rules --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/flag-icons@7.2.3/css/flag-icons.min.css');
+
+:root {
+  --bg: #0a0f1a;
+  --bg-elevated: #101828;
+  --border: #1f2937;
+  --text: #dbe4f0;
+  --text-muted: #8993a8;
+  --text-faint: #56617a;
+  --accent: #22d3ee;
+  --accent-soft-bg: rgba(34, 211, 238, 0.08);
+  --accent-soft-border: rgba(34, 211, 238, 0.35);
+  --heading: #f8fafc;
+  --tint: rgba(255, 255, 255, 0.03);
+}
+
+/* ─── Base ─── */
+body {
+  font-size: 16px;
+  line-height: 1.65;
+  background: var(--bg);
+  color: var(--text);
+}
+
+h1, h2, h3 { letter-spacing: -0.03em; }
+h2 { font-size: 1.2rem; margin-top: 2rem; }
+h3 { font-size: 1.02rem; margin-top: 1.4rem; }
+hr { border-color: var(--border); margin: 2rem 0; }
+
+/* ─── Navbar ─── */
+.navbar {
+  background: var(--bg) !important;
+  border-bottom: 1px solid var(--border) !important;
+  padding: 0.7rem 1rem !important;
+}
+
+.navbar-brand {
+  color: var(--heading) !important;
+  font-size: 0.95rem !important;
+  letter-spacing: -0.04em !important;
+  font-weight: 700 !important;
+}
+
+.navbar-nav .nav-link {
+  color: var(--text-muted) !important;
+  font-size: 0.85rem !important;
+  font-weight: 500 !important;
+  padding: 0.25rem 0.7rem !important;
+  transition: color 0.15s;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: var(--accent) !important;
+}
+
+.navbar-nav .nav-link .bi {
+  color: inherit !important;
+}
+
+.quarto-color-scheme-toggle .bi {
+  color: var(--text-muted) !important;
+}
+
+.quarto-color-scheme-toggle:hover .bi {
+  color: var(--accent) !important;
+}
+
+.quarto-color-scheme-toggle .bi::before {
+  background-image: none !important;
+  width: auto !important;
+  height: auto !important;
+  font-family: "bootstrap-icons" !important;
+  font-size: 1rem;
+  line-height: 1;
+  content: "\f495" !important;
+}
+
+.quarto-color-scheme-toggle.alternate .bi::before {
+  content: "\f5a1" !important;
+}
+
+/* ─── Homepage: two-column profile layout ─── */
+.home .quarto-title-block { display: none; }
+
+.profile-section {
+  padding: 3rem 2rem;
+}
+
+.profile-grid {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 360px 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.profile-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.9rem;
+  position: sticky;
+  top: 1.5rem;
+}
+
+.profile-photo {
+  width: 100%;
+  max-width: 280px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+}
+
+.profile-name {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.9rem;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  line-height: 1.1;
+  color: var(--heading);
+  margin: 0.3rem 0 0;
+}
+
+.profile-role {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  font-weight: 400;
+  margin: 0;
+}
+
+.profile-links {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin: 0.2rem 0 0.4rem;
+}
+
+.cta-link {
+  font-size: 0.8rem !important;
+  font-weight: 500 !important;
+  color: var(--text-muted) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: 100px !important;
+  padding: 0.38rem 0.95rem !important;
+  text-decoration: none !important;
+  transition: border-color 0.15s, color 0.15s !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 0.4rem !important;
+}
+
+.cta-link:hover {
+  border-color: var(--accent) !important;
+  color: var(--accent) !important;
+  text-decoration: none !important;
+}
+
+.profile-right {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.profile-bio,
+.profile-block p {
+  font-size: 0.97rem;
+  line-height: 1.7;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.profile-bio p { margin-bottom: 0.85rem; }
+.profile-bio p:last-child { margin-bottom: 0; }
+
+.profile-bio a,
+.profile-block a {
+  font-weight: 500;
+  color: var(--text);
+}
+
+.profile-bio a:hover,
+.profile-block a:hover {
+  color: var(--accent);
+}
+
+.section-kicker {
+  display: block;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 0.45rem;
+}
+
+/* ─── Talks: card grid ─── */
+.talks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 0.9rem;
+  margin-top: 1.25rem;
+}
+
+.talk-card {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1.15rem 1.3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  height: 100%;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.talk-card:hover {
+  border-color: var(--accent-soft-border);
+  box-shadow: 0 4px 24px var(--accent-soft-bg);
+}
+
+.talk-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.talk-year {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: 0.04em;
+}
+
+.talk-lang {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.68rem;
+  font-weight: 600;
+  padding: 0.14rem 0.5rem;
+  background: var(--tint);
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  color: var(--text-muted);
+  letter-spacing: 0.02em;
+  line-height: 1.4;
+}
+
+.talk-lang .fi {
+  font-size: 0.9rem;
+  border-radius: 2px;
+}
+
+.talk-title {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.92rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--heading);
+}
+
+.talk-event {
+  font-size: 0.79rem;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.talk-location {
+  font-size: 0.75rem;
+  color: var(--text-faint);
+  font-weight: 400;
+}
+
+.talk-links {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  padding-top: 0.55rem;
+  border-top: 1px solid var(--border);
+  margin-top: auto;
+}
+
+.talk-link {
+  font-size: 0.73rem !important;
+  font-weight: 600 !important;
+  color: var(--text-muted) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: 6px !important;
+  padding: 0.16rem 0.55rem !important;
+  text-decoration: none !important;
+  transition: border-color 0.15s, color 0.15s !important;
+  letter-spacing: 0.02em;
+}
+
+.talk-link:hover {
+  border-color: var(--accent) !important;
+  color: var(--accent) !important;
+}
+
+/* ─── CV ─── */
+.cv-date {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-faint);
+}
+
+/* ─── Blog ─── */
+.quarto-post .thumbnail img { border-radius: 8px; }
+.quarto-post h3 a { color: var(--text) !important; }
+.quarto-post h3 a:hover { color: var(--accent) !important; text-decoration: none !important; }
+
+/* ─── Footer ─── */
+.nav-footer {
+  background: var(--bg) !important;
+  border-top: 1px solid var(--border) !important;
+  font-size: 0.82rem;
+  color: var(--text-faint);
+}
+
+.nav-footer a { color: var(--text-faint) !important; }
+.nav-footer a:hover { color: var(--accent) !important; }
+
+/* ─── Responsive ─── */
+@media (max-width: 768px) {
+  .profile-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .profile-left {
+    position: static;
+  }
+
+  .profile-photo { max-width: 140px; }
+}
+
+@media (max-width: 640px) {
+  .profile-section { padding: 2rem 1.25rem; }
+}

@@ -1,0 +1,19 @@
+---
+title: "Thanks for getting in touch!"
+lang: en
+page-layout: full
+search: false
+format:
+  html:
+    css: services-page.css
+---
+
+```{=html}
+<div class="services-wrap">
+  <section class="services-contact">
+    <h1>Thanks for getting in touch!</h1>
+    <p>Your message has been received. I’ll reply to the email address you provided.</p>
+    <a class="services-button" href="services.qmd">Back to services <span aria-hidden="true">↗</span></a>
+  </section>
+</div>
+```

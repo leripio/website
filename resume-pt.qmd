@@ -1,0 +1,166 @@
+---
+lang: pt-BR
+description: "Dados, Modelagem e Engenharia de Pesquisa"
+title: ""
+format:
+  html:
+    css: [fonts/fontawesome-local.css, cv_styles.css]
+    toc: false
+    embed-resources: false
+    toc-depth: 2
+    page-layout: full
+execute:
+  echo: false
+---
+
+::: {.cv}
+
+::: {.header}
+
+# João Renato Leripio
+
+::: {.subtitle}
+Previsão, Modelagem Estatística e Ciência de Dados
+:::
+
+::: {.contact}
+
+<span><i class="fa-solid fa-location-dot"></i>Brasileiro</span>
+
+<span><i class="fa-solid fa-envelope"></i> [joao@rleripio.com](mailto:joao@rleripio.com)</span>
+
+<span><i class="fa-brands fa-linkedin"></i> [leripiorenato](https://www.linkedin.com/in/leripiorenato/)</span>
+
+<span><i class="fa-brands fa-github"></i> [leripio](https://github.com/leripio)</span>
+
+<span><i class="fa-solid fa-globe"></i> [rleripio.com](https://www.rleripio.com)</span>
+
+:::
+
+:::
+
+## Perfil
+
+- Sou especializado em previsão e modelagem estatística, com foco em séries temporais.
+- Minha formação em economia e ciência de dados, somada à experiência com dados alternativos, não estruturados e de alta dimensão, amplia os problemas quantitativos com os quais posso trabalhar e as perspectivas que trago para eles.
+- Combino esse conhecimento com práticas de engenharia de dados e desenvolvimento de software para construir pipelines analíticos confiáveis e soluções de apoio à decisão.
+- Autor de [*R for Economic Research*](https://book.rleripio.com).
+
+## Áreas de atuação
+
+**Modelagem:** Previsão · Econometria · Aprendizado de máquina · Modelos de espaço de estados · Inferência bayesiana
+
+**Dados:** Séries temporais · Dados alternativos, não estruturados e de alta dimensão 
+
+**Entregas:** APIs · Aplicações de dados · Relatórios automatizados
+
+**Fluxos de trabalho:** Pipelines de dados · Integração de LLMs
+
+**Tecnologias:** R · Python · Shiny · Quarto · DuckDB · PostgreSQL · dbt · Git · Docker · Shell · CLI Tools
+
+## Experiência profissional
+
+::: {.entry}
+
+::: {.entry-header}
+
+::: {.entry-title}
+
+### Kapitalo Investimentos
+
+**Líder de Ciência de Dados e Modelagem Econômica**
+
+:::
+
+::: {.meta}
+São Paulo, Brasil · Abr/2022 – Set/2026
+:::
+
+:::
+
+Uma das principais gestoras independentes de fundos multimercado do Brasil, com aproximadamente US$6 bilhões sob gestão.
+
+- Liderei a equipe de Ciência de Dados e Modelagem na área de Pesquisa Macroeconômica, orientando tecnicamente o desenvolvimento de modelos quantitativos e produtos analíticos.
+- Desenvolvi e avaliei modelos de previsão e nowcasting para inflação e atividade econômica com dados alternativos, de alta dimensão e não estruturados.
+- Elaborei e implementei modelos para estimar variáveis econômicas latentes, incluindo produto potencial e NAIRU, em dezenas de países.
+- Construí fluxos analíticos completos para operacionalizar modelos estatísticos e de aprendizado de máquina, integrando LLMs e pipelines automatizados de dados para gerar resultados analíticos em escala.
+
+:::
+
+::: {.entry}
+
+::: {.entry-header}
+
+::: {.entry-title}
+
+### Itaú Asset Management
+
+**Analista de Pesquisa Quantitativa**
+
+:::
+
+::: {.meta}
+São Paulo, Brasil · Out/2019 – Mar/2022
+:::
+
+:::
+
+A maior gestora privada de recursos no Brasil, com aproximadamente US$240 bilhões sob gestão.
+
+- Desenvolvi modelos de previsão de receita de empresas listadas em bolsa, combinando dados econômicos e corporativos para apoiar análises de investimento.
+- Construí modelos de aprendizado de máquina com dados do mercado de crédito para prever preços de títulos de dívida corporativa.
+- Elaborei e implementei modelos de previsão de casos de COVID-19 e cobertura vacinal, desenvolvendo abordagens para processos em rápida evolução e com histórico limitado de dados.
+- Desenvolvi indicadores de atividade econômica e inflação com dados alternativos e não estruturados, ampliando as informações disponíveis para análise macroeconômica.
+:::
+
+::: {.entry}
+
+::: {.entry-header}
+
+::: {.entry-title}
+
+### Instituto de Pesquisa e Estatística do Distrito Federal
+
+**Analista de Pesquisa Econômica**
+
+:::
+
+::: {.meta}
+Brasília, Brasil · Out/2017 – Set/2019
+:::
+
+:::
+
+Instituto público de pesquisa responsável por estatísticas socioeconômicas e análises de políticas públicas para o Distrito Federal, incluindo Brasília.
+
+- Realizei pesquisas econômicas aplicadas e acompanhei a atividade econômica regional com dados oficiais e administrativos.
+- Desenvolvi indicadores estatísticos e ferramentas analíticas para medir as condições econômicas e subsidiar discussões de políticas públicas.
+- Produzi relatórios e apresentei resultados quantitativos a públicos técnicos e não técnicos.
+
+:::
+
+## Formação
+
+**Mestrado em Economia**, Universidade Federal Fluminense · 2017  
+**Bacharelado em Economia**, Universidade Federal Fluminense · 2013
+
+## Idiomas
+
+- **Português**: Nativo
+- **Inglês**: Proficiência profissional (B2) – Boa leitura e escrita, com comunicação oral consistente.
+- **Francês**: Intermediário (B1) – Facilidade com conversas cotidianas, viagens e leitura de textos gerais.
+- **Espanhol**: Básico (A2) – Compreensão básica e comunicação introdutória.
+
+## Publicação
+
+Autor de *R for Economic Research – Essential Tools for Modern Economic Analysis*, um guia prático de ciência de dados, modelagem estatística, séries temporais e previsão para pesquisa aplicada. O livro está disponível gratuitamente em *book.rleripio.com* e recebeu mais de 56.000 visualizações de leitores em mais de 50 países desde seu lançamento, em abril de 2023.
+
+## Apresentações selecionadas
+
+- **Nowcasting When Predictors Keep Changing: Leveraging Cross-Sectional Information in High-Dimensional, High-Turnover Data** — International Symposium on Forecasting · Montreal · 2026
+
+- **Nowcasting Inflation in Brazil Using Web Data** — International Symposium on Forecasting · Charlottesville · 2023
+
+- **Real-Time Forecasting of COVID-19 Cases Across US Regions** — International Symposium on Forecasting · Remoto · 2020
+
+:::

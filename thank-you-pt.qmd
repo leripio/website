@@ -1,0 +1,19 @@
+---
+title: "Obrigado pela mensagem!"
+lang: pt-BR
+page-layout: full
+search: false
+format:
+  html:
+    css: services-page.css
+---
+
+```{=html}
+<div class="services-wrap">
+  <section class="services-contact">
+    <h1>Obrigado pela mensagem!</h1>
+    <p>Recebi sua mensagem e entrarei em contato pelo e-mail informado.</p>
+    <a class="services-button" href="services-pt.qmd">Voltar aos serviços <span aria-hidden="true">↗</span></a>
+  </section>
+</div>
+```

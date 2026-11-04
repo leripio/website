@@ -1,0 +1,16 @@
+---
+title: "Talks"
+listing:
+  id: talks-listing
+  type: custom
+  template: _talks-template.ejs
+  sort-ui: false
+  filter-ui: false
+  sort: "year desc"
+  contents: "talks-data.yml"
+---
+
+Conference presentations, lectures, and panel discussions.
+
+::: {#talks-listing}
+:::

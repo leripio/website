@@ -1,0 +1,41 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - contact-form.js
+  post-render:
+    - python3 scripts/localize_site.py
+
+lang: en
+
+website:
+  title: "João R. Leripio"
+  description: "Data, Modeling & Research Engineering"
+
+  navbar:
+    left:
+      - href: index.qmd
+        text: About
+      - href: services.qmd
+        text: Work with me
+      - href: https://r4er.rleripio.com
+        text: Book
+        target: _blank
+      - href: talks.qmd
+        text: Talks
+      - href: resume.qmd
+        text: Resume
+
+  page-footer:
+    center: "© 2026 João R. Leripio · Built with [Quarto](https://quarto.org)"
+
+  open-graph:
+    description: "Data, Modeling & Research Engineering"
+
+format:
+  html:
+    theme:
+      light: [flatly, styles.scss]
+      dark: [darkly, styles-dark.scss]
+    toc: false
+    page-layout: article

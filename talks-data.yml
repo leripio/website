@@ -1,0 +1,60 @@
+- title: "Nowcasting when predictors keep changing"
+  event: "46th Intl. Symposium on Forecasting"
+  year: 2026
+  location: "Montreal/CA"
+  lang: en
+  slides: "http://isf2026.rleripio.com"
+
+- title: "Data Science in the Financial Sector"
+  event: "FGV/EAESP"
+  year: 2025
+  location: "São Paulo/SP"
+  lang: en
+  slides: "http://eaesp2025.rleripio.com"
+
+- title: "Data Science no Mercado Financeiro"
+  event: "UFFinance - Liga de Mercado Financeiro da UFF"
+  year: 2024
+  location: "Remote"
+  lang: pt-br
+  slides: "http://uffinance2024.rleripio.com"
+  video: "https://www.youtube.com/watch?v=ulfbAZECwTo"
+
+- title: "Ciência de dados no mercado financeiro"
+  event: "COPPEAD/UFRJ"
+  year: 2024
+  location: "Rio de Janeiro/BR"
+  lang: pt-br
+  slides: "http://coppead2024.rleripio.com"
+
+- title: "O Impacto da Inteligência Artificial na vida do novo Economista"
+  event: "Semana do CCSA - Universidade Presbiteriana Mackenzie"
+  year: 2023
+  location: "São Paulo/BR"
+  lang: pt-br
+  slides: "http://mack.rleripio.com"
+
+- title: "Nowcasting Inflation in Brazil Using Web Data"
+  event: "43rd Intl. Symposium on Forecasting"
+  year: 2023
+  location: "Charlottesville/US"
+  lang: en
+  slides: "http://isf2023.rleripio.com"
+
+- title: "Real-time Forecasting COVID-19 cases applied to US regions"
+  event: "40th Intl. Symposium on Forecasting"
+  year: 2020
+  location: "Remote"
+  lang: en
+
+- title: "What does make life better? Determinants of subjective wellbeing: evidences from the wellbeing survey in Brazil"
+  event: "34th CIRET Conference"
+  year: 2018
+  location: "Rio de Janeiro/BR"
+  lang: en
+
+- title: "Business cycle and labor supply: evidences from Brazil's capital city"
+  event: "34th CIRET Conference"
+  year: 2018
+  location: "Rio de Janeiro/BR"
+  lang: en

@@ -1,0 +1,150 @@
+---
+lang: pt-BR
+title: "Treinamentos, Consultoria e Desenvolvimento de Projetos"
+description: "Apoio prático em previsão, modelagem estatística, ciência de dados e fluxos de pesquisa."
+page-layout: full
+body-classes: services
+format:
+  html:
+    css: services-page.css
+    anchor-sections: false
+---
+
+```{=html}
+<div class="services-wrap">
+  <div class="services-hero">
+    <div>
+      <span class="section-kicker">Treinamentos · Consultoria · Desenvolvimento de projetos</span>
+      <h1>De perguntas analíticas<br>a soluções práticas.</h1>
+      <p class="services-lead">Capacite sua equipe, aprimore seus métodos ou tire um projeto analítico do papel.</p>
+      <p>Trabalho com equipes e pesquisadores em previsão, modelagem estatística, ciência de dados e nos fluxos de trabalho que tornam a análise confiável e útil.</p>
+      <div class="services-actions">
+        <a class="services-button" href="#contact">Vamos conversar sobre seu projeto <span aria-hidden="true">↗</span></a>
+        <a class="services-text-link" href="#expertise">Conheça as áreas ↓</a>
+      </div>
+    </div>
+    <div class="services-overview" aria-label="Duas formas de conhecer os serviços">
+      <span class="section-kicker">Comece pelas suas necessidades</span>
+      <p class="overview-question">O que você quer alcançar?</p>
+      <p>Previsões melhores.<br>Modelos mais sólidos.<br>Fluxos de pesquisa mais confiáveis.</p>
+      <div class="overview-divider" aria-hidden="true">+</div>
+      <p class="overview-question">Como posso ajudar?</p>
+      <p>Capacitar sua equipe.<br>Trabalhar ao seu lado.<br>Desenvolver a solução.</p>
+      <a href="#formats">Encontre o formato ideal <span aria-hidden="true">↗</span></a>
+    </div>
+  </div>
+
+  <section class="services-section" id="expertise" aria-labelledby="expertise-title">
+    <div class="services-section-heading">
+      <span class="section-kicker">01 / Áreas de atuação</span>
+      <h2 id="expertise-title">O que você quer alcançar?</h2>
+      <p>Começamos pelo problema. A partir dele, definimos os métodos, as ferramentas e as entregas.</p>
+    </div>
+    <div class="expertise-list">
+      <article class="expertise-row">
+        <h3>Previsão e nowcasting</h3>
+        <div><p>Antecipe mudanças e aproveite melhor as informações disponíveis hoje. Desenvolva, compare e avalie modelos para séries temporais e bases de dados em constante evolução.</p></div>
+      </article>
+      <article class="expertise-row">
+        <h3>Modelagem estatística</h3>
+        <div><p>Transforme uma pergunta de pesquisa em uma abordagem analítica bem fundamentada. Estime relações, considere a incerteza e comunique o significado dos resultados.</p></div>
+      </article>
+      <article class="expertise-row">
+        <h3>Ciência de dados e análise</h3>
+        <div><p>Extraia informações úteis de dados complexos, incluindo fontes alternativas, não estruturadas e de alta dimensão. Conecte exploração e modelagem a um objetivo analítico claro.</p></div>
+      </article>
+      <article class="expertise-row">
+        <h3>Fluxos de pesquisa</h3>
+        <div><p>Evolua de scripts pontuais para projetos organizados e reproduzíveis. Conecte coleta de dados, análise, relatórios e colaboração em um fluxo que sua equipe consiga manter.</p></div>
+      </article>
+    </div>
+  </section>
+
+  <section class="services-section" id="formats" aria-labelledby="formats-title">
+    <div class="services-section-heading">
+      <span class="section-kicker">02 / Como podemos trabalhar juntos</span>
+      <h2 id="formats-title">O conhecimento de que você precisa. No formato ideal.</h2>
+      <p>Cada área pode ser trabalhada por meio de treinamentos, consultoria ou desenvolvimento de projetos.</p>
+    </div>
+    <div class="services-format-grid">
+      <article class="services-format">
+        <span class="format-label">Desenvolva competências</span>
+        <h3>Treinamento</h3>
+        <p>Aprendizado prático adaptado à experiência, às ferramentas e aos objetivos da sua equipe.</p>
+        <ul><li>Presencial ou remoto</li><li>Workshops temáticos ou uma sequência de encontros</li><li>Exercícios práticos e exemplos relevantes</li></ul>
+        <p class="format-fit"><span class="fit-check" aria-hidden="true">✓</span><span><strong>Ideal quando</strong> sua equipe precisa de autonomia para realizar o trabalho.</span></p>
+      </article>
+      <article class="services-format">
+        <span class="format-label">Conte com apoio especializado</span>
+        <h3>Consultoria</h3>
+        <p>Orientação direcionada para escolher uma abordagem, resolver um problema ou aprimorar um trabalho em andamento.</p>
+        <ul><li>Orientação metodológica e de projeto</li><li>Revisão de modelos, código ou fluxos de trabalho</li><li>Colaboração técnica com sua equipe</li></ul>
+        <p class="format-fit"><span class="fit-check" aria-hidden="true">✓</span><span><strong>Ideal quando</strong> você já tem uma equipe e precisa de conhecimento especializado adicional.</span></p>
+      </article>
+      <article class="services-format">
+        <span class="format-label">Tire uma solução do papel</span>
+        <h3>Desenvolvimento de projetos</h3>
+        <p>Desenvolvimento de uma solução analítica, da pergunta inicial às entregas acordadas.</p>
+        <ul><li>Escopo e etapas definidos</li><li>Análise, modelagem e implementação</li><li>Documentação e transferência de conhecimento</li></ul>
+        <p class="format-fit"><span class="fit-check" aria-hidden="true">✓</span><span><strong>Ideal quando</strong> você precisa de alguém que assuma o desenvolvimento da solução.</span></p>
+      </article>
+    </div>
+  </section>
+
+  <section class="services-section" aria-labelledby="examples-title">
+    <div class="services-section-heading">
+      <span class="section-kicker">03 / Um pouco de inspiração</span>
+      <h2 id="examples-title">Algumas ideias para começar</h2>
+      <p>Treinamentos, consultoria e desenvolvimento de projetos podem ser combinados de acordo com seus objetivos, sua equipe e o apoio de que você precisa.</p>
+    </div>
+    <div class="services-example-grid">
+      <article><span class="format-label">Previsão + Treinamento</span><h3>Um workshop de previsão para sua equipe</h3><p>Trabalhe a preparação de séries temporais, a comparação de modelos e a avaliação de previsões com exemplos relevantes para seu trabalho.</p></article>
+      <article><span class="format-label">Modelagem estatística + Consultoria</span><h3>Um novo olhar sobre um modelo existente</h3><p>Revise hipóteses, validação e interpretação e identifique melhorias práticas junto com sua equipe.</p></article>
+      <article><span class="format-label">Fluxos de pesquisa + Desenvolvimento</span><h3>Da análise recorrente aos relatórios automatizados</h3><p>Conecte atualização de dados, análise e relatórios em Quarto em um fluxo documentado e reproduzível.</p></article>
+      <article><span class="format-label">Ciência de dados e análise + Desenvolvimento</span><h3>Um indicador construído com seus dados proprietários</h3><p>Transforme dados internos em um indicador relevante, com metodologia documentada, validação e atualizações automatizadas para apoiar suas decisões.</p></article>
+    </div>
+  </section>
+
+  <section class="services-background" aria-labelledby="background-title">
+    <span class="section-kicker" id="background-title">O que trago para o trabalho</span>
+    <div class="approach-grid">
+      <article>
+        <h2>Experiência na prática</h2>
+        <p>Tenho quase dez anos de experiência profissional nos setores privado e público, desenvolvendo modelos de previsão e fluxos analíticos reproduzíveis para pesquisa econômica.</p>
+      </article>
+      <article>
+        <h2>Sempre aprendendo</h2>
+        <p>Participo regularmente de conferências de ciência de dados e previsão, acompanhando novos desenvolvimentos e trazendo os métodos e as ideias mais promissores para meus treinamentos, consultorias e projetos.</p>
+      </article>
+      <article>
+        <h2>Tornando ideias acessíveis</h2>
+        <p>Torno métodos técnicos e resultados analíticos acessíveis a públicos mais amplos, com base na minha experiência como autor de <a href="https://book.rleripio.com"><em>R for Economic Research</em></a> e <a href="talks-pt.qmd">palestrante em ciência de dados e previsão</a>.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="services-contact" id="contact" aria-labelledby="contact-title">
+    <span class="section-kicker">Vamos trabalhar juntos</span>
+    <h2 id="contact-title">Conte o que você está desenvolvendo.</h2>
+    <p>Uma breve descrição do seu desafio, do resultado esperado e do prazo é um bom ponto de partida. Se já tiver um formato em mente, conte também.</p>
+    <form class="contact-form" name="service-enquiry" method="POST" action="thank-you-pt.html" data-netlify="true" netlify-honeypot="website" data-language="pt-BR" aria-describedby="contact-form-hint">
+      <input type="hidden" name="form-name" value="service-enquiry">
+      <input type="hidden" name="language" value="pt-BR">
+      <div hidden aria-hidden="true"><label>Leave this field empty <input name="website" tabindex="-1" autocomplete="off"></label></div>
+      <p class="contact-form-hint" id="contact-form-hint">Os campos marcados com * são obrigatórios. Usarei seu e-mail para responder à sua mensagem.</p>
+      <div class="contact-form-grid">
+        <div class="contact-field"><label for="contact-name">Nome <span aria-hidden="true">*</span></label><input id="contact-name" name="name" autocomplete="name" maxlength="150" required></div>
+        <div class="contact-field"><label for="contact-email">E-mail <span aria-hidden="true">*</span></label><input id="contact-email" name="email" type="email" autocomplete="email" maxlength="254" required></div>
+        <div class="contact-field"><label for="contact-organization">Organização <span class="field-optional">(opcional)</span></label><input id="contact-organization" name="organization" autocomplete="organization" maxlength="200"></div>
+        <div class="contact-field"><label for="contact-format">Como posso ajudar? <span class="field-optional">(opcional)</span></label><select id="contact-format" name="service"><option value="">Selecione um formato</option><option value="training">Treinamento</option><option value="consulting">Consultoria</option><option value="development">Desenvolvimento de projeto</option><option value="unsure">Vamos descobrir juntos</option></select></div>
+        <div class="contact-field"><label for="contact-country">País <span class="field-optional">(opcional)</span></label><input id="contact-country" name="country" autocomplete="country-name" maxlength="100"></div>
+        <div class="contact-field"><label for="contact-state">Estado / região <span class="field-optional">(opcional)</span></label><input id="contact-state" name="state" autocomplete="address-level1" maxlength="100"></div>
+      </div>
+      <div class="contact-field"><label for="contact-message">Conte sobre seu projeto <span aria-hidden="true">*</span></label><textarea id="contact-message" name="message" rows="5" maxlength="10000" placeholder="Qual é o desafio, o resultado esperado e o prazo?" required></textarea></div>
+      <button class="services-button" type="submit">Enviar mensagem <span aria-hidden="true">↗</span></button>
+      <p class="contact-form-status" role="status" aria-live="polite" hidden></p>
+    </form>
+    <script src="contact-form.js"></script>
+  </section>
+</div>
+```

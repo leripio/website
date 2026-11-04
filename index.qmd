@@ -1,0 +1,102 @@
+---
+page-layout: full
+body-classes: home
+---
+
+```{=html}
+<section class="profile-section">
+<div class="profile-grid">
+
+<div class="profile-left">
+  <img
+    src="images/profile.jpg"
+    class="profile-photo"
+    alt="João R. Leripio"
+  >
+
+  <h1 class="profile-name">João R. Leripio</h1>
+
+  <p class="profile-role">
+    Forecasting, Statistical Modeling & Data Science
+  </p>
+
+  <div class="profile-links">
+    <a
+      href="https://github.com/leripio"
+      class="cta-link"
+    >
+      <i class="bi bi-github"></i> GitHub
+    </a>
+
+    <a
+      href="https://linkedin.com/in/leripiorenato"
+      class="cta-link"
+    >
+      <i class="bi bi-linkedin"></i> LinkedIn
+    </a>
+  </div>
+</div>
+
+<div class="profile-right">
+
+<div class="profile-bio">
+  <span class="section-kicker">About</span>
+
+  <p>
+    I specialize in forecasting and statistical modeling, with a particular focus on time series.
+  </p>
+
+  <p>
+  My background in economics and data science, together with experience working with alternative, unstructured, and high-dimensional data, broadens the range of quantitative problems I can tackle and the perspectives I bring to them.
+
+  </p>
+  I combine this expertise with data engineering and software development practices to build reliable analytical pipelines and decision-support solutions.
+  <p>
+  
+  </p>
+  
+</div>
+
+<div class="profile-block">
+  <span class="section-kicker">Currently working on...</span>
+
+  <p>
+    A new book about how analysts can move beyond one-off analyses
+    and build reliable, long-lived analytical projects. The book brings
+    together practical lessons on organizing, automating, and deploying
+    data pipelines and analytical products for applied research.
+  </p>
+</div>
+
+<div class="profile-block">
+  <span class="section-kicker">Latest talk</span>
+
+  <p>
+    <strong>Nowcasting When Predictors Keep Changing</strong>,
+    presented at the 46th International Symposium on Forecasting.
+    The talk explores how to produce reliable forecasts from
+    high-dimensional datasets whose composition changes continuously
+    over time.
+    <a href="talks.qmd">See all talks ↗</a>
+  </p>
+</div>
+
+<div class="profile-block">
+  <span class="section-kicker">R for Economic Research (2e)</span>
+
+  <p>
+    The second edition of <em>R for Economic Research</em> was released
+    in September 2025. The book offers a practical guide to modern
+    economic analysis, with a strong emphasis on data workflows,
+    statistical modeling, time series, and forecasting. It is
+    <a href="https://book.rleripio.com">available online for free</a>
+    and can also be purchased on
+    <a href="https://www.amazon.com.br/Economic-Research-Essential-economic-analysis/dp/B0G5YD9HD3">Amazon</a>.
+  </p>
+</div>
+
+</div>
+
+</div>
+</section>
+```

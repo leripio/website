@@ -1,0 +1,104 @@
+---
+lang: pt-BR
+description: "Dados, Modelagem e Engenharia de Pesquisa"
+page-layout: full
+body-classes: home
+---
+
+```{=html}
+<section class="profile-section">
+<div class="profile-grid">
+
+<div class="profile-left">
+  <img
+    src="images/profile.jpg"
+    class="profile-photo"
+    alt="João R. Leripio"
+  >
+
+  <h1 class="profile-name">João R. Leripio</h1>
+
+  <p class="profile-role">
+    Previsão, Modelagem Estatística e Ciência de Dados
+  </p>
+
+  <div class="profile-links">
+    <a
+      href="https://github.com/leripio"
+      class="cta-link"
+    >
+      <i class="bi bi-github"></i> GitHub
+    </a>
+
+    <a
+      href="https://linkedin.com/in/leripiorenato"
+      class="cta-link"
+    >
+      <i class="bi bi-linkedin"></i> LinkedIn
+    </a>
+  </div>
+</div>
+
+<div class="profile-right">
+
+<div class="profile-bio">
+  <span class="section-kicker">Sobre</span>
+
+  <p>
+    Sou especializado em previsão e modelagem estatística, com foco em séries temporais.
+  </p>
+
+  <p>
+  Minha formação em economia e ciência de dados, somada à experiência com dados alternativos, não estruturados e de alta dimensão, amplia os problemas quantitativos com os quais posso trabalhar e as perspectivas que trago para eles.
+
+  </p>
+  Combino esse conhecimento com práticas de engenharia de dados e desenvolvimento de software para construir pipelines analíticos confiáveis e soluções de apoio à decisão.
+  <p>
+  
+  </p>
+  
+</div>
+
+<div class="profile-block">
+  <span class="section-kicker">Atualmente trabalhando em...</span>
+
+  <p>
+    Um novo livro sobre como analistas podem ir além de análises pontuais
+    e construir projetos analíticos confiáveis e duradouros. O livro reúne
+    lições práticas sobre organização, automação e implantação de
+    pipelines de dados e produtos analíticos para pesquisa aplicada.
+  </p>
+</div>
+
+<div class="profile-block">
+  <span class="section-kicker">Palestra mais recente</span>
+
+  <p>
+    <strong>Nowcasting When Predictors Keep Changing</strong>,
+    apresentada no 46º International Symposium on Forecasting.
+    A palestra explora como produzir previsões confiáveis a partir de
+    bases de dados de alta dimensão cuja composição muda
+    continuamente ao longo do tempo.
+    <a href="talks-pt.qmd">Veja todas as palestras ↗</a>
+  </p>
+</div>
+
+<div class="profile-block">
+  <span class="section-kicker">R for Economic Research (2e)</span>
+
+  <p>
+    A segunda edição de <em>R for Economic Research</em> foi lançada
+    em setembro de 2025. O livro é um guia prático de análise econômica
+    moderna, com ênfase em fluxos de dados, modelagem estatística,
+    séries temporais e previsão. Está
+    <a href="https://book.rleripio.com">disponível gratuitamente online</a>
+    e também pode ser adquirido na
+    <a href="https://www.amazon.com.br/Economic-Research-Essential-economic-analysis/dp/B0G5YD9HD3">Amazon</a>.
+  </p>
+</div>
+
+</div>
+
+</div>
+</section>
+```

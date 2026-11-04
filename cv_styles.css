@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@media print {
+  /* Hide website navigation, footers, and Quarto extras */
+  header, footer, .navbar, .quarto-github-edit-link, .back-to-top {
+    display: none !important;
+  }
+  
+  /* Reset background and margins for a clean sheet of paper */
+  body {
+    background-color: white !important;
+    color: black !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  /* Ensure links look normal and don't append ugly URLs */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+@page {
+  size: A4;
+  margin: 0.55in;
+}
+
+html,
+body {
+  background: #ffffff;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #1f2937;
+  font-size: 13.2px;
+  line-height: 1.45;
+  font-weight: 400;
+}
+
+.cv {
+  max-width: 7.65in;
+  margin: 0 auto;
+}
+
+.header {
+  border-bottom: 2px solid #1e3a5f;
+  padding-bottom: 12px;
+  margin-bottom: 16px;
+}
+
+.header h1 {
+  font-size: 39px;
+  line-height: 1;
+  margin: 0;
+  color: #0f172a;
+  font-weight: 700;
+  letter-spacing: -0.045em;
+}
+
+.subtitle {
+  font-size: 15.5px;
+  margin-top: 8px;
+  color: #475569;
+  font-weight: 500;
+}
+
+.contact {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #64748b;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+  align-items: center;
+}
+
+.contact span {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.contact i {
+  color: #1e3a5f;
+  font-size: 11.5px;
+}
+
+a {
+  color: #1e3a5f;
+  text-decoration: none;
+}
+
+section {
+  margin-top: 10px;
+}
+
+h2 {
+  font-size: 12.6px;
+  color: #1e3a5f;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-top: 15px;
+  margin-bottom: 7px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #e2e8f0;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 13.6px;
+  margin: 0;
+  color: #0f172a;
+  font-weight: 650;
+  letter-spacing: -0.01em;
+}
+
+.entry-title strong {
+  display: block;
+  margin-top: 2px;
+  font-size: 11.8px;
+  font-weight: 500;
+  color: #64748b;
+}
+
+.entry {
+  margin-bottom: 11px;
+}
+
+.entry-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.entry-title p {
+  margin: 2px 0 0 0;
+}
+
+.meta {
+  font-size: 11.5px;
+  color: #64748b;
+  white-space: nowrap;
+}
+
+p {
+  margin-top: 4px;
+  margin-bottom: 7px;
+}
+
+ul {
+  margin-top: 5px;
+  margin-bottom: 7px;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 3px;
+}
+
+.compact {
+  margin-bottom: 5px;
+}
+
+strong {
+  font-weight: 600;
+}
+
+@media print {
+  body {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  .cv {
+    max-width: none;
+  }
+
+  .entry,
+  section {
+    break-inside: avoid;
+  }
+}

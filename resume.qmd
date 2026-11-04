@@ -1,0 +1,164 @@
+---
+title: ""
+format:
+  html:
+    css: [fonts/fontawesome-local.css, cv_styles.css]
+    toc: false
+    embed-resources: false
+    toc-depth: 2
+    page-layout: full
+execute:
+  echo: false
+---
+
+::: {.cv}
+
+::: {.header}
+
+# João Renato Leripio
+
+::: {.subtitle}
+Forecasting, Statistical Modeling & Data Science
+:::
+
+::: {.contact}
+
+<span><i class="fa-solid fa-location-dot"></i>Brazilian</span>
+
+<span><i class="fa-solid fa-envelope"></i> [joao@rleripio.com](mailto:joao@rleripio.com)</span>
+
+<span><i class="fa-brands fa-linkedin"></i> [leripiorenato](https://www.linkedin.com/in/leripiorenato/)</span>
+
+<span><i class="fa-brands fa-github"></i> [leripio](https://github.com/leripio)</span>
+
+<span><i class="fa-solid fa-globe"></i> [rleripio.com](https://www.rleripio.com)</span>
+
+:::
+
+:::
+
+## Profile
+
+- I specialize in forecasting and statistical modeling, with a particular focus on time series.
+- My background in economics and data science, together with experience working with alternative, unstructured, and high-dimensional data, broadens the range of quantitative problems I can tackle and the perspectives I bring to them.
+- I combine this expertise with data engineering and software development practices to build reliable analytical pipelines and decision-support solutions.
+- Author of [*R for Economic Research*](https://book.rleripio.com).
+
+## Areas of Expertise
+
+**Modeling:** Forecasting · Econometrics · Machine Learning · State-Space Models · Bayesian Inference
+
+**Data:** Time series · Alternative, Unstructured, and High-dimensional Data 
+
+**Delivery:** APIs · Data Apps · Automated Reports
+
+**Workflows:** Data Pipelines · LLM Integration
+
+**Tech stack:** R · Python · Shiny · Quarto · DuckDB · PostgreSQL · dbt · Git · Docker · Shell · CLI Tools
+
+## Professional Experience
+
+::: {.entry}
+
+::: {.entry-header}
+
+::: {.entry-title}
+
+### Kapitalo Investimentos
+
+**Data Science & Economic Modeling Lead**
+
+:::
+
+::: {.meta}
+São Paulo, Brazil · Apr/2022 – Sep/2026
+:::
+
+:::
+
+A leading independent Brazilian hedge fund manager, with approximately US$6 billion in assets under management.
+
+- Led the Data Science and Modeling team within Macroeconomic Research, providing technical direction and overseeing the development of quantitative models and analytical products.
+- Developed and evaluated forecasting and nowcasting models for inflation and economic activity using alternative, high-dimensional, and unstructured data.
+- Designed and implemented models to estimate latent economic variables, including potential output and the NAIRU, across dozens of countries.
+- Built end-to-end analytical workflows to operationalize statistical and machine learning models, integrating LLMs and automated data pipelines to deliver scalable analytical outputs.
+
+:::
+
+::: {.entry}
+
+::: {.entry-header}
+
+::: {.entry-title}
+
+### Itaú Asset Management
+
+**Quantitative Research Analyst**
+
+:::
+
+::: {.meta}
+São Paulo, Brazil · Oct/2019 – Mar/2022
+:::
+
+:::
+
+Brazil’s largest private-sector asset manager, with approximately US$240 billion in assets under management.
+
+- Developed forecasting models for revenues of publicly listed companies, combining economic and company-level data to support investment research.
+- Built machine learning models using credit-market data to predict corporate bond prices.
+- Designed and implemented forecasting models for COVID-19 cases and vaccination coverage, developing modeling approaches for rapidly evolving processes with limited historical data.
+- Developed economic activity and inflation indicators using alternative and unstructured data, expanding the information available for macroeconomic analysis.
+:::
+
+::: {.entry}
+
+::: {.entry-header}
+
+::: {.entry-title}
+
+### Institute of Research and Statistics of the Federal District
+
+**Economic Research Analyst**
+
+:::
+
+::: {.meta}
+Brasília, Brazil · Oct/2017 - Sep/2019
+:::
+
+:::
+
+A government research institute providing socioeconomic statistics and policy analysis for Brazil’s Federal District, including Brasília, the national capital.
+
+- Conducted applied economic research and monitored regional economic activity using official and administrative data.
+- Developed statistical indicators and analytical tools to measure economic conditions and support public-policy discussions.
+- Produced reports and presented quantitative findings to technical and nontechnical audiences.
+
+:::
+
+## Education
+
+**M.S. in Economics**, Universidade Federal Fluminense · 2017  
+**B.S. in Economics**, Universidade Federal Fluminense · 2013
+
+## Languages
+
+- **Portuguese**: Native speaker
+- **English**: Professional Working Proficiency (B2) – Strong reading and writing skills with solid verbal communication.
+- **French**: Intermediate (B1) – Comfortable with everyday conversation, travel, and standard reading.
+- **Spanish**: Elementary (A2) – Basic understanding and introductory communication.
+
+## Publication
+
+Author of *R for Economic Research – Essential Tools for Modern Economic Analysis*, a practical guide to data science, statistical modeling, time series, and forecasting for applied research. The book is freely available online at *book.rleripio.com* and has received more than 56,000 views from readers in over 50 countries since its launch in April 2023.
+
+## Selected Presentations
+
+- **Nowcasting When Predictors Keep Changing: Leveraging Cross-Sectional Information in High-Dimensional, High-Turnover Data** — International Symposium on Forecasting · Montreal · 2026
+
+- **Nowcasting Inflation in Brazil Using Web Data** — International Symposium on Forecasting · Charlottesville · 2023
+
+- **Real-Time Forecasting of COVID-19 Cases Across US Regions** — International Symposium on Forecasting · Remote · 2020
+
+:::

@@ -1,0 +1,18 @@
+---
+lang: pt-BR
+description: "Dados, Modelagem e Engenharia de Pesquisa"
+title: "Palestras"
+listing:
+  id: talks-listing
+  type: custom
+  template: _talks-template-pt.ejs
+  sort-ui: false
+  filter-ui: false
+  sort: "year desc"
+  contents: "talks-data.yml"
+---
+
+Apresentações em conferências, palestras e participações em painéis.
+
+::: {#talks-listing}
+:::
