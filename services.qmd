@@ -14,47 +14,51 @@ format:
   <div class="services-hero">
     <div>
       <span class="section-kicker">Training · Consulting · Project development</span>
-      <h1>From analytical questions<br>to practical solutions.</h1>
-      <p class="services-lead">Build your team’s skills, strengthen your methods, or bring an analytical project to life.</p>
-      <p>I work with teams and researchers on forecasting, statistical modeling, data science, and the workflows that make analytical work reliable and useful.</p>
+      <h1>From open questions<br>to informed decisions.</h1>
+      <p class="services-lead">I help teams and researchers build forecasts, understand what drives their results, and make their analytical work easier to repeat and share.</p>
       <div class="services-actions">
         <a class="services-button" href="#contact">Discuss your project <span aria-hidden="true">↗</span></a>
-        <a class="services-text-link" href="#expertise">Explore the areas ↓</a>
       </div>
     </div>
     <div class="services-overview" aria-label="Two ways to explore services">
-      <span class="section-kicker">Start with your needs</span>
-      <p class="overview-question">What do you want to achieve?</p>
-      <p>Better forecasts.<br>Stronger models.<br>More reliable research workflows.</p>
-      <div class="overview-divider" aria-hidden="true">+</div>
-      <p class="overview-question">How can I help?</p>
-      <p>Teach your team.<br>Work alongside you.<br>Develop the solution.</p>
-      <a href="#formats">Find the right format <span aria-hidden="true">↗</span></a>
+      <p class="overview-question"><a href="#expertise">What’s your goal? <span aria-hidden="true">↓</span></a></p>
+      <ul class="overview-topics" role="list">
+        <li>Forecast with higher accuracy.</li>
+        <li>Understand what affects your results.</li>
+        <li>Find what matters in your data.</li>
+        <li>Build better workflows.</li>
+      </ul>
+      <p class="overview-question"><a href="#formats">How can I help? <span aria-hidden="true">↓</span></a></p>
+      <ul class="overview-topics" role="list">
+        <li>Train your team.</li>
+        <li>Work alongside you.</li>
+        <li>Develop a solution.</li>
+      </ul>
     </div>
   </div>
 
   <section class="services-section" id="expertise" aria-labelledby="expertise-title">
     <div class="services-section-heading">
-      <span class="section-kicker">01 / Areas of expertise</span>
-      <h2 id="expertise-title">What do you want to achieve?</h2>
+      <span class="section-kicker">01 / Your goals</span>
+      <h2 id="expertise-title">What’s your goal?</h2>
       <p>Start with the problem. We can define the methods, tools, and deliverables around it.</p>
     </div>
     <div class="expertise-list">
       <article class="expertise-row">
-        <h3>Forecasting & nowcasting</h3>
-        <div><p>Anticipate change and make better use of the information available today. Develop, compare, and evaluate models for time series and evolving datasets.</p></div>
+        <h3>Plan with better forecasts</h3>
+        <div><p>Forecast how a variable may evolve. Estimate its current level when measurements lag. Update the estimate as new data arrives. Quantify forecast uncertainty. Plan for a range of plausible outcomes.</p></div>
       </article>
       <article class="expertise-row">
-        <h3>Statistical modeling</h3>
-        <div><p>Translate a research question into a defensible analytical approach. Estimate relationships, account for uncertainty, and communicate what the results mean.</p></div>
+        <h3>Understand what affects your outcomes</h3>
+        <div><p>See how internal and external factors relate to the outcome you care about. Estimate the impact of interventions inside or outside your business. Explain the size of each effect and its contribution to the result.</p></div>
       </article>
       <article class="expertise-row">
-        <h3>Data science & analytics</h3>
-        <div><p>Extract useful information from complex data, including alternative, unstructured, and high-dimensional sources. Connect exploration and modeling to a clear analytical objective.</p></div>
+        <h3>Make sense of your data</h3>
+        <div><p>Turn raw data into information you can use to make decisions. Bring together data from different sources and turn it into indicators or summaries that help you see what’s changing and decide where to focus.</p></div>
       </article>
       <article class="expertise-row">
-        <h3>Research workflows</h3>
-        <div><p>Move from one-off scripts to organized, reproducible projects. Connect data collection, analysis, reporting, and collaboration in a workflow your team can maintain.</p></div>
+        <h3>Build better workflows</h3>
+        <div><p>Connect data collection, cleaning, analysis, and reporting in a single efficient, reliable pipeline. Make results easy to reproduce when new data arrives and give different teams easy access to the reports, dashboards, or datasets they need.</p></div>
       </article>
     </div>
   </section>
@@ -68,21 +72,21 @@ format:
     <div class="services-format-grid">
       <article class="services-format">
         <span class="format-label">Build capabilities</span>
-        <h3>Training</h3>
+        <h3><i class="bi bi-mortarboard services-format-icon" aria-hidden="true"></i><span>Training</span></h3>
         <p>Practical learning shaped around your team’s background, tools, and goals.</p>
         <ul><li>On-site or remote delivery</li><li>Focused workshops or a series of sessions</li><li>Applied exercises and relevant examples</li></ul>
         <p class="format-fit"><span class="fit-check" aria-hidden="true">✓</span><span><strong>A good fit when</strong> your team needs the skills to do the work independently.</span></p>
       </article>
       <article class="services-format">
         <span class="format-label">Get expert support</span>
-        <h3>Consulting</h3>
+        <h3><i class="bi bi-chat-dots services-format-icon" aria-hidden="true"></i><span>Consulting</span></h3>
         <p>Focused guidance to help you choose an approach, solve a problem, or strengthen ongoing work.</p>
         <ul><li>Project and methodological advice</li><li>Review of models, code, or workflows</li><li>Technical collaboration with your team</li></ul>
         <p class="format-fit"><span class="fit-check" aria-hidden="true">✓</span><span><strong>A good fit when</strong> you have a team in place and need additional expertise.</span></p>
       </article>
       <article class="services-format">
         <span class="format-label">Bring a solution to life</span>
-        <h3>Project development</h3>
+        <h3><i class="bi bi-tools services-format-icon" aria-hidden="true"></i><span>Project development</span></h3>
         <p>Hands-on delivery of an analytical solution, from the initial question to an agreed set of outputs.</p>
         <ul><li>Defined scope and milestones</li><li>Analysis, modeling, and implementation</li><li>Documentation and knowledge transfer</li></ul>
         <p class="format-fit"><span class="fit-check" aria-hidden="true">✓</span><span><strong>A good fit when</strong> you need someone to take responsibility for developing the solution.</span></p>
@@ -90,18 +94,30 @@ format:
     </div>
   </section>
 
-  <section class="services-section" aria-labelledby="examples-title">
+  <section class="services-section" id="examples" aria-labelledby="examples-title">
     <div class="services-section-heading">
-      <span class="section-kicker">03 / A little inspiration</span>
+      <span class="section-kicker">03 / Project ideas</span>
       <h2 id="examples-title">A few ideas to get you started</h2>
-      <p>Training, consulting, and project development can be combined to fit your goals, your team, and the support you need.</p>
+      <p>We can explore any of these ideas through training, consulting, or project development, depending on your goals and the support your team needs.</p>
     </div>
-    <div class="services-example-grid">
-      <article><span class="format-label">Forecasting + Training</span><h3>A forecasting workshop for your team</h3><p>Work through time-series preparation, model comparison, and forecast evaluation using examples relevant to your work.</p></article>
-      <article><span class="format-label">Statistical modeling + Consulting</span><h3>A second look at an existing model</h3><p>Review assumptions, validation, and interpretation, then identify practical improvements with your team.</p></article>
-      <article><span class="format-label">Research workflows + Development</span><h3>From recurring analysis to automated reporting</h3><p>Connect data updates, analysis, and Quarto reports in a documented, reproducible workflow.</p></article>
-      <article><span class="format-label">Data science & analytics + Development</span><h3>An indicator built from your proprietary data</h3><p>Turn internal data into a meaningful indicator, with a documented methodology, validation, and automated updates to support your decisions.</p></article>
-    </div>
+    <ol class="services-example-list">
+      <li>
+        <h3>Modernize your forecasting process</h3>
+        <p>Your team already produces forecasts and wants to adopt newer methods or better quantify uncertainty around its forecasts.</p>
+      </li>
+      <li>
+        <h3>Measure seasonality or estimate economic effects</h3>
+        <p>Your team wants to measure how a variable changes with the seasons or estimate how exchange rates or economic activity affect an outcome that matters to your business.</p>
+      </li>
+      <li>
+        <h3>Build an indicator from your data</h3>
+        <p>You collect data that could help you track something you care about, and you want a consistent way to measure it.</p>
+      </li>
+      <li>
+        <h3>Automate a recurring report</h3>
+        <p>Your team repeats the same steps whenever new data arrives and wants a more reliable way to update the analysis and share the results.</p>
+      </li>
+    </ol>
   </section>
 
   <section class="services-background" aria-labelledby="background-title">
@@ -117,7 +133,7 @@ format:
       </article>
       <article>
         <h2>Making ideas accessible</h2>
-        <p>Over the years, I have presented methods and analytical findings to varied audiences at conferences, universities, and in professional settings. This experience helps me adapt my communication and make technical ideas accessible to people with different backgrounds.</p>
+        <p>I’ve presented analytical methods and findings to varied audiences at conferences, universities, and in professional settings. That experience helps me explain technical ideas clearly to people with different backgrounds.</p>
       </article>
     </div>
   </section>

@@ -33,10 +33,10 @@ format:
 
 ## Perfil
 
-- Sou especializado em previsão e modelagem estatística, com foco em séries temporais.
+- Sou especialista em previsão e modelagem estatística, com foco em séries temporais.
 - Minha formação em economia e ciência de dados, somada à experiência com dados alternativos, não estruturados e de alta dimensão, amplia os problemas quantitativos com os quais posso trabalhar e as perspectivas que trago para eles.
 - Combino esse conhecimento com práticas de engenharia de dados e desenvolvimento de software para construir pipelines analíticos confiáveis e soluções de apoio à decisão.
-- Autor de [*R for Economic Research*](https://book.rleripio.com).
+- Autor de [*R for Economic Research*](https://book.rleripio.com){target="_blank" rel="noopener"}.
 
 :::
 
@@ -109,7 +109,7 @@ São Paulo, Brasil · Out/2019 – Mar/2022
 
 A maior gestora privada de recursos no Brasil, com aproximadamente US$240 bilhões sob gestão.
 
-- Desenvolvi modelos de previsão de receita de empresas listadas em bolsa, combinando dados econômicos e corporativos para apoiar análises de investimento.
+- Desenvolvi modelos de previsão de receita de empresas listadas em bolsa, combinando dados públicos e proprietários para apoiar análises de investimento.
 - Construí modelos de aprendizado de máquina com dados do mercado de crédito para prever preços de títulos de dívida corporativa.
 - Elaborei e implementei modelos de previsão de casos de COVID-19 e cobertura vacinal, desenvolvendo abordagens para processos em rápida evolução e com histórico limitado de dados.
 - Desenvolvi indicadores de atividade econômica e inflação com dados alternativos e não estruturados, ampliando as informações disponíveis para análise macroeconômica.
@@ -133,11 +133,11 @@ Brasília, Brasil · Out/2017 – Set/2019
 
 :::
 
-Instituto público de pesquisa responsável por estatísticas socioeconômicas e análises de políticas públicas para o Distrito Federal, incluindo Brasília.
+Instituto público de pesquisa responsável por estatísticas socioeconômicas e análises de políticas públicas para o Distrito Federal.
 
-- Realizei pesquisas econômicas aplicadas e acompanhei a atividade econômica regional com dados oficiais e administrativos.
+- Realizei pesquisas econômicas aplicadas e acompanhei a atividade econômica regional com dados públicos e proprietários.
 - Desenvolvi indicadores estatísticos e ferramentas analíticas para medir as condições econômicas e subsidiar discussões de políticas públicas.
-- Produzi relatórios e apresentei resultados quantitativos a públicos técnicos e não técnicos.
+- Produzi relatórios e apresentei resultados a públicos técnicos e não técnicos.
 
 :::
 
@@ -185,7 +185,7 @@ Instituto público de pesquisa responsável por estatísticas socioeconômicas e
     <div><dt>Países alcançados</dt><dd>50+</dd></div>
   </dl>
   <p class="publication-note">Desde o lançamento, em abril de 2023.</p>
-  <a class="publication-link" href="https://book.rleripio.com">Leia gratuitamente online ↗</a>
+  <a class="publication-link" href="https://book.rleripio.com" target="_blank" rel="noopener">Leia gratuitamente online ↗</a>
 </div>
 ```
 

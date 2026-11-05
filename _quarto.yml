@@ -18,7 +18,6 @@ website:
         text: About
       - href: https://r4er.rleripio.com
         text: Book
-        target: _blank
       - href: talks.qmd
         text: Talks
       - href: resume.qmd

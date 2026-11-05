@@ -37,11 +37,11 @@ description: "Data, Modeling & Research Engineering"
       <h2 id="book-title">R for Economic Research (2e)</h2>
       <div class="about-book-content">
         <p>The second edition, released in September 2025, includes new chapters on Bayesian inference, nowcasting, and working with big data.</p>
-        <a href="https://book.rleripio.com" class="about-book-cover" aria-label="R for Economic Research"><img src="images/cover.png" alt="R for Economic Research — 2nd Edition" width="100" height="150" loading="lazy"></a>
+        <a href="https://book.rleripio.com" target="_blank" rel="noopener" class="about-book-cover" aria-label="R for Economic Research"><img src="images/cover.png" alt="R for Economic Research — 2nd Edition" width="100" height="150" loading="lazy"></a>
       </div>
       <div class="about-book-links">
-        <a class="about-card-link" href="https://book.rleripio.com">Read online for free ↗</a>
-        <a class="about-card-link" href="https://www.amazon.com.br/Economic-Research-Essential-economic-analysis/dp/B0G5YD9HD3">Buy on Amazon ↗</a>
+        <a class="about-card-link" href="https://book.rleripio.com" target="_blank" rel="noopener">Read online for free ↗</a>
+        <a class="about-card-link" href="https://www.amazon.com.br/Economic-Research-Essential-economic-analysis/dp/B0G5YD9HD3" target="_blank" rel="noopener">Buy on Amazon ↗</a>
       </div>
     </section>
 

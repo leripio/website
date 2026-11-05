@@ -78,11 +78,20 @@ for page in PAGES:
         if marker not in header:
             raise RuntimeError(f"Missing navbar tools in {path}")
         header = header.replace(marker, marker + switch, 1)
+        header = re.sub(r'\s+target="_blank"', '', header)
         text = text[:header_match.start()] + header + text[header_match.end():]
         if portuguese:
             text = text.replace('Built with <a href="https://quarto.org">Quarto</a>', 'Criado com <a href="https://quarto.org">Quarto</a>')
         alternates = ''.join(f'<link data-language-alternate="true" rel="alternate" hreflang="{lang}" href="./{page}{ext}.html">\n'
                              for lang, ext in (("en", ""), ("pt-BR", "-pt"), ("x-default", "")))
         text = re.sub(r'\s*</head>', lambda _: '\n' + STYLE + '\n' + alternates + '</head>', text, count=1)
+        if page == "resume":
+            # Leave fragment links, interactive controls, and email actions in place.
+            header_end = text.index("</header>", header_match.start()) + len("</header>")
+            text = text[:header_end] + re.sub(
+                r'<a\b(?=[^>]*\bhref="(?!(?:#|mailto:|javascript:))[^"]+")(?![^>]*\btarget=)',
+                '<a target="_blank" rel="noopener"',
+                text[header_end:],
+            )
         path.write_text(text)
 print("Localized navigation and language buttons for English and Portuguese pages.")

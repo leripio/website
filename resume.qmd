@@ -36,7 +36,7 @@ format:
 - I specialize in forecasting and statistical modeling, with a particular focus on time series.
 - My background in economics and data science, together with experience working with alternative, unstructured, and high-dimensional data, broadens the range of quantitative problems I can tackle and the perspectives I bring to them.
 - I combine this expertise with data engineering and software development practices to build reliable analytical pipelines and decision-support solutions.
-- Author of [*R for Economic Research*](https://book.rleripio.com).
+- Author of [*R for Economic Research*](https://book.rleripio.com){target="_blank" rel="noopener"}.
 
 :::
 
@@ -109,7 +109,7 @@ São Paulo, Brazil · Oct/2019 – Mar/2022
 
 Brazil’s largest private-sector asset manager, with approximately US$240 billion in assets under management.
 
-- Developed forecasting models for revenues of publicly listed companies, combining economic and company-level data to support investment research.
+- Developed forecasting models for revenues of publicly listed companies, combining public and proprietary data to support investment research.
 - Built machine learning models using credit-market data to predict corporate bond prices.
 - Designed and implemented forecasting models for COVID-19 cases and vaccination coverage, developing modeling approaches for rapidly evolving processes with limited historical data.
 - Developed economic activity and inflation indicators using alternative and unstructured data, expanding the information available for macroeconomic analysis.
@@ -133,11 +133,11 @@ Brasília, Brazil · Oct/2017 - Sep/2019
 
 :::
 
-A government research institute providing socioeconomic statistics and policy analysis for Brazil’s Federal District, including Brasília, the national capital.
+A government research institute providing socioeconomic statistics and policy analysis for Brazil’s Federal District.
 
-- Conducted applied economic research and monitored regional economic activity using official and administrative data.
+- Conducted applied economic research and monitored regional economic activity using public and proprietary data.
 - Developed statistical indicators and analytical tools to measure economic conditions and support public-policy discussions.
-- Produced reports and presented quantitative findings to technical and nontechnical audiences.
+- Produced reports and presented findings to technical and nontechnical audiences.
 
 :::
 
@@ -185,7 +185,7 @@ A government research institute providing socioeconomic statistics and policy an
     <div><dt>Countries reached</dt><dd>50+</dd></div>
   </dl>
   <p class="publication-note">Since its launch in April 2023.</p>
-  <a class="publication-link" href="https://book.rleripio.com">Read online for free ↗</a>
+  <a class="publication-link" href="https://book.rleripio.com" target="_blank" rel="noopener">Read online for free ↗</a>
 </div>
 ```
 

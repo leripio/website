@@ -16,7 +16,7 @@ description: "Dados, Modelagem e Engenharia de Pesquisa"
     <div class="about-identity">
       <h1 id="profile-name">João R. Leripio</h1>
       <p class="about-role">Previsão, Modelagem Estatística e Ciência de Dados</p>
-      <div class="about-bio"><p>Sou especializado em previsão e modelagem estatística, com foco em séries temporais. Combinando economia e ciência de dados, desenvolvo modelos confiáveis e fluxos analíticos reproduzíveis para apoiar a pesquisa e a tomada de decisão. <a class="about-linkedin" href="https://linkedin.com/in/leripiorenato">Conecte-se comigo no LinkedIn ↗</a></p></div>
+      <div class="about-bio"><p>Sou especialista em previsão e modelagem estatística, com foco em séries temporais. Combinando economia e ciência de dados, desenvolvo modelos confiáveis e fluxos analíticos reproduzíveis para apoiar a pesquisa e a tomada de decisão. <a class="about-linkedin" href="https://linkedin.com/in/leripiorenato">Conecte-se comigo no LinkedIn ↗</a></p></div>
     </div>
 
   </section>
@@ -25,10 +25,10 @@ description: "Dados, Modelagem e Engenharia de Pesquisa"
     <section class="about-card about-work-card" id="work-with-me" aria-labelledby="work-title">
       <span class="section-kicker">Treinamentos · Consultoria · Projetos</span>
       <h2 id="work-title">Como posso ajudar</h2>
-      <p>Tem um desafio analítico ou quer desenvolver sua equipe?
+      <p>Tem um desafio com dados ou quer desenvolver sua equipe?
     Ofereço treinamentos, consultoria e desenvolvimento de projetos em previsão,
     modelagem estatística, ciência de dados e fluxos de pesquisa,
-    com apoio adaptado aos seus objetivos.</p>
+    pensado especialmente para os seus objetivos.</p>
       <a class="about-card-link" href="services-pt.qmd">Veja como podemos trabalhar juntos ↗</a>
     </section>
 
@@ -36,12 +36,12 @@ description: "Dados, Modelagem e Engenharia de Pesquisa"
       <span class="section-kicker">Livro</span>
       <h2 id="book-title">R for Economic Research (2e)</h2>
       <div class="about-book-content">
-        <p>A segunda edição, lançada em setembro de 2025, inclui novos capítulos sobre inferência bayesiana, nowcasting e trabalho com grandes volumes de dados.</p>
-        <a href="https://book.rleripio.com" class="about-book-cover" aria-label="R for Economic Research"><img src="images/cover.png" alt="R for Economic Research — 2nd Edition" width="100" height="150" loading="lazy"></a>
+        <p>A segunda edição, lançada em setembro de 2025, inclui novos capítulos sobre inferência bayesiana, nowcasting e análises de grandes volumes de dados.</p>
+        <a href="https://book.rleripio.com" target="_blank" rel="noopener" class="about-book-cover" aria-label="R for Economic Research"><img src="images/cover.png" alt="R for Economic Research — 2nd Edition" width="100" height="150" loading="lazy"></a>
       </div>
       <div class="about-book-links">
-        <a class="about-card-link" href="https://book.rleripio.com">Leia gratuitamente online ↗</a>
-        <a class="about-card-link" href="https://www.amazon.com.br/Economic-Research-Essential-economic-analysis/dp/B0G5YD9HD3">Compre na Amazon ↗</a>
+        <a class="about-card-link" href="https://book.rleripio.com" target="_blank" rel="noopener">Leia gratuitamente online ↗</a>
+        <a class="about-card-link" href="https://www.amazon.com.br/Economic-Research-Essential-economic-analysis/dp/B0G5YD9HD3" target="_blank" rel="noopener">Compre na Amazon ↗</a>
       </div>
     </section>
 
