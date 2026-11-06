@@ -51,10 +51,13 @@ for page in PAGES:
                 name = target[1]
                 anchor = anchor[:target.start()] + f'href="./{name}{suffix}.html"' + anchor[target.end():]
                 if 'class="nav-link' in anchor:
+                    anchor = anchor.replace('class="nav-link services-nav-link', 'class="nav-link', 1)
                     anchor = anchor.replace('nav-link active', 'nav-link')
                     anchor = re.sub(r'\s+aria-current="page"', '', anchor)
                     if name == page:
                         anchor = anchor.replace('class="nav-link"', 'class="nav-link active" aria-current="page"')
+                    if name == "services":
+                        anchor = anchor.replace('class="nav-link', 'class="nav-link services-nav-link', 1)
             if portuguese:
                 for en, pt in LABELS.items():
                     anchor = anchor.replace(f'<span class="menu-text">{en}</span>', f'<span class="menu-text">{pt}</span>')
