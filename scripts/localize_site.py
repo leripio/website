@@ -79,6 +79,10 @@ for page in PAGES:
             raise RuntimeError(f"Missing navbar tools in {path}")
         header = header.replace(marker, marker + switch, 1)
         header = re.sub(r'\s+target="_blank"', '', header)
+        header = header.replace(
+            'href="https://r4er.rleripio.com"',
+            'href="https://r4er.rleripio.com" target="_blank" rel="noopener"',
+        )
         text = text[:header_match.start()] + header + text[header_match.end():]
         if portuguese:
             text = text.replace('Built with <a href="https://quarto.org">Quarto</a>', 'Criado com <a href="https://quarto.org">Quarto</a>')
