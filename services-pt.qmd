@@ -16,7 +16,7 @@ format:
     <div>
       <span class="section-kicker">Treinamentos · Consultoria · Desenvolvimento de projetos</span>
       <h1>Minha experiência a serviço da sua equipe.</h1>
-      <p class="services-lead">Trabalho com empresas na exploração e integração de fontes de dados, no desenvolvimento de modelos estatísticos e previsões, além de criar soluções completas para disponibilizar os resultados das análises.</p>
+      <p class="services-lead">Trabalho com empresas na exploração e integração de bases de dados, no desenvolvimento de modelos estatísticos e previsões, além de criar soluções completas para disponibilizar os resultados das análises.</p>
       <div class="services-actions">
         <a class="services-button" href="#contact">Vamos conversar sobre seu projeto <span aria-hidden="true">↗</span></a>
       </div>
