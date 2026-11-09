@@ -102,3 +102,61 @@ for page in PAGES:
             )
         path.write_text(text)
 print("Localized navigation and language buttons for English and Portuguese pages.")
+
+
+# Publish explicit language paths while retaining Quarto's root outputs for
+# partial renders and legacy URLs. All assets remain shared at the site root.
+from urllib.parse import urlsplit
+
+def language_url(page, language):
+    return f"/{language}/" + ("" if page == "index" else f"{page}.html")
+
+def route_attribute(match, language):
+    attribute, value = match[1], match[2]
+    url = urlsplit(value)
+    if url.scheme or url.netloc or not url.path or url.path.startswith("/"):
+        return match[0]
+    relative = url.path.removeprefix("./")
+    page_match = re.fullmatch(r"(index|services|talks|resume|thank-you)(-pt)?\.html", relative)
+    if page_match:
+        target_language = "pt" if page_match[2] else language
+        target = language_url(page_match[1], target_language)
+    else:
+        target = "/" + relative
+    if url.query:
+        target += "?" + url.query
+    if url.fragment:
+        target += "#" + url.fragment
+    return f'{attribute}="{target}"'
+
+redirects = []
+for page in PAGES:
+    for language, suffix in (("en", ""), ("pt", "-pt")):
+        source = OUTPUT / f"{page}{suffix}.html"
+        if not source.exists():
+            continue
+        text = source.read_text()
+        text = re.sub(r'<script src="/language.js"></script>\s*', "", text)
+        text = re.sub(r'<link rel="canonical"[^>]*>\s*', "", text)
+        text = text.replace("<head>", '<head>\n<script src="/language.js"></script>', 1)
+        source.write_text(text)
+        localized = re.sub(r'(href|src|action)="([^"]+)"',
+                           lambda m: route_attribute(m, language), text)
+        # The language switch always points to the equivalent page.
+        other = "en" if language == "pt" else "pt"
+        localized = re.sub(r'(<a class="language-switch" href=")[^"]+',
+                           lambda m: m[1] + language_url(page, other), localized)
+        localized = re.sub(r'<link data-language-alternate="true"[^>]*>\s*', "", localized)
+        links = "".join(
+            f'<link data-language-alternate="true" rel="alternate" hreflang="{tag}" href="{language_url(page, lang)}">\n'
+            for tag, lang in (("en", "en"), ("pt-BR", "pt"), ("x-default", "en"))
+        )
+        localized = localized.replace("</head>",
+            f'<link rel="canonical" href="https://www.rleripio.com{language_url(page, language)}">\n' + links + "</head>", 1)
+        destination = OUTPUT / language / f"{page}.html"
+        destination.parent.mkdir(exist_ok=True)
+        destination.write_text(localized)
+        if page != "index" or suffix:
+            for extension in (".html", ""):
+                redirects.append(f"/{page}{suffix}{extension} {language_url(page, language)} 301")
+(OUTPUT / "_redirects").write_text("\n".join(redirects) + "\n")

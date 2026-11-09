@@ -3,6 +3,7 @@ project:
   output-dir: _site
   resources:
     - contact-form.js
+    - language.js
   post-render:
     - python3 scripts/localize_site.py
 
