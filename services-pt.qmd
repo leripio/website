@@ -14,7 +14,7 @@ format:
 <div class="services-wrap">
   <div class="services-hero">
     <div>
-      <span class="section-kicker">Treinamentos · Consultoria · Desenvolvimento de projetos</span>
+      <span class="section-kicker">Treinamentos · Consultoria · Projetos</span>
       <h1>Minha experiência a serviço da sua equipe.</h1>
       <p class="services-lead">Trabalho com empresas na exploração e integração de bases de dados, no desenvolvimento de modelos estatísticos e previsões, além de criar soluções completas para disponibilizar os resultados das análises.</p>
       <div class="services-actions">

@@ -13,7 +13,7 @@ format:
 <div class="services-wrap">
   <div class="services-hero">
     <div>
-      <span class="section-kicker">Training · Consulting · Project development</span>
+      <span class="section-kicker">Training · Consulting · Projects</span>
       <h1>Putting my expertise to work for your team.</h1>
       <p class="services-lead">I work with companies to explore and integrate data sources, develop statistical models and forecasts, and build complete solutions that make analytical results accessible.</p>
       <div class="services-actions">
