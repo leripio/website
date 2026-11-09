@@ -86,7 +86,7 @@ format:
       </article>
       <article class="services-format">
         <span class="format-label">Bring a solution to life</span>
-        <h3><i class="bi bi-tools services-format-icon" aria-hidden="true"></i><span>Project development</span></h3>
+        <h3><i class="bi bi-tools services-format-icon" aria-hidden="true"></i><span>Projects</span></h3>
         <p>Hands-on delivery of an analytical solution, from the initial question to an agreed set of outputs.</p>
         <ul><li>Defined scope and milestones.</li><li>Analysis, modeling, and implementation.</li><li>Documentation and knowledge transfer.</li></ul>
         <p class="format-fit"><span class="fit-check" aria-hidden="true">✓</span><span><strong>A good fit when</strong> you need someone to take responsibility for developing the solution.</span></p>
