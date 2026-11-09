@@ -74,7 +74,8 @@
 .services-example-list p { max-width: 65ch; font-size: .91rem; margin: 0; }
 .services-background { background: var(--tint); border: 1px solid var(--border); border-radius: 10px; padding: 2.5rem; margin: 1rem 0 3rem; }
 .approach-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2rem; margin-top: 1.1rem; }
-.services-background h2 { font-size: 1.35rem; margin: 0 0 .7rem; }
+.approach-grid h3 { display: flex; align-items: baseline; gap: .55rem; font-size: 1.35rem; margin: 0 0 .7rem; }
+.approach-icon { width: 1.1em; height: 1.1em; flex: 0 0 1.1em; align-self: flex-start; margin-top: .15em; }
 .services-background p { font-size: .92rem; margin: 0; }
 .services-contact { text-align: center; border-top: 1px solid var(--border); padding: 3rem 1rem; }
 .services-contact p { max-width: 38rem; margin: 0 auto 1.6rem; }
@@ -104,3 +105,4 @@
   .services-contact { padding: 2.5rem 0 1rem; }
   .contact-form-grid { grid-template-columns: 1fr; }
 }
+
