@@ -14,25 +14,25 @@ format:
   <div class="services-hero">
     <div>
       <span class="section-kicker">Training · Consulting · Projects</span>
-      <h1>Putting my expertise to work for your team.</h1>
-      <p class="services-lead">I work with companies to explore and integrate data sources, develop statistical models and forecasts, and build complete solutions that make analytical results accessible.</p>
+      <h1>Trustworthy Analysis. Informed Decisions</h1>
+      <p class="services-lead">I help companies unlock the potential of their data, develop more accurate forecasts, and strengthen their analyses with robust statistical evidence to support decision-making.</p>
       <div class="services-actions">
         <a class="services-button" href="#contact">Discuss your project <span aria-hidden="true">↗</span></a>
       </div>
     </div>
     <div class="services-overview" aria-label="Two ways to explore services">
-      <p class="overview-question"><a href="#expertise">What’s your goal? <span aria-hidden="true">↓</span></a></p>
+      <p class="overview-question"><a href="#expertise">What’s Your Goal? <span aria-hidden="true">↓</span></a></p>
       <ul class="overview-topics" role="list">
-        <li>Improve your forecasts.</li>
-        <li>Understand what affects your outcomes.</li>
-        <li>Discover new data opportunities.</li>
-        <li>Optimize your analytical workflows.</li>
+        <li>Improve Your Forecasts</li>
+        <li>Enrich Your Analyses</li>
+        <li>Understand What Affects Your Results</li>
+        <li>Automate Analyses and Processes</li>
       </ul>
       <p class="overview-question"><a href="#formats">How can I help? <span aria-hidden="true">↓</span></a></p>
       <ul class="overview-topics" role="list">
-        <li>Training your team.</li>
-        <li>Working alongside you.</li>
-        <li>Developing a solution.</li>
+        <li>Training your team</li>
+        <li>Working alongside you</li>
+        <li>Developing a solution</li>
       </ul>
     </div>
   </div>
@@ -40,25 +40,25 @@ format:
   <section class="services-section" id="expertise" aria-labelledby="expertise-title">
     <div class="services-section-heading">
       <span class="section-kicker">01 / Your goals</span>
-      <h2 id="expertise-title">What’s your goal?</h2>
-      <p>Start with what you’d like to achieve. We can define the methods, tools, and deliverables around it.</p>
+      <h2 id="expertise-title">What’s Your Goal?</h2>
+      <p>We start with your challenges and work together to find the right solutions.</p>
     </div>
     <div class="expertise-list">
       <article class="expertise-row">
-        <h3>Improve your forecasts</h3>
-        <div><p>Whether you’re starting from scratch or refining existing forecasts, explore modern methods, quantify uncertainty with reliable prediction intervals, and streamline delivery through automated workflows.</p></div>
+        <h3>Improve Your Forecasts</h3>
+        <div><p>Does your team need to forecast sales, demand, prices, or other variables? I can help develop or refine forecasting models using modern statistical methods to support planning and decision-making.</p></div>
       </article>
       <article class="expertise-row">
-        <h3>Understand what affects your outcomes</h3>
-        <div><p>See how internal and external factors relate to the outcome you care about. Estimate the impact of interventions inside or outside your business. Explain the size of each effect and its contribution to the result.</p></div>
+        <h3>Enrich Your Analyses</h3>
+        <div><p>Is your company making full use of the data available? I can help identify and explore internal and external data sources, assess their relevance to your business challenges, and incorporate valuable information into your analyses and models.</p></div>
       </article>
       <article class="expertise-row">
-        <h3>Discover new data opportunities</h3>
-        <div><p>Explore internal and external data sources, including public datasets, to uncover information that may be underused and identify new opportunities for your business.</p></div>
+        <h3>Understand What Affects Your Results</h3>
+        <div><p>How do prices, campaigns, or market changes affect your company's results? I can help test hypotheses, investigate relationships, and estimate effects using statistical methods to generate evidence that supports your decisions.</p></div>
       </article>
       <article class="expertise-row">
-        <h3>Optimize your analytical workflows</h3>
-        <div><p>Reduce manual work, automate recurring reports, and improve how information flows across teams by building new analytical pipelines or improving existing ones.</p></div>
+        <h3>Automate Analyses and Processes</h3>
+        <div><p>Are your reports prepared manually, spreadsheets updated repeatedly, or models dependent on extensive manual intervention? I can develop automated workflows for data collection, processing, analysis, and reporting.</p></div>
       </article>
     </div>
   </section>
@@ -114,7 +114,7 @@ format:
   <path d="M22 13a18.15 18.15 0 0 1-20 0" />
   <rect width="20" height="14" x="2" y="6" rx="2" />
 </svg><span>Professional experience</span></h3>
-        <p>Nearly a decade of experience applying forecasting, statistical modeling, and data science across the private and public sectors, including roles at major Brazilian investment management firms such as Kapitalo Investimentos and Itaú Asset Management.</p>
+        <p>Nearly a decade of experience developing forecasting, statistical modeling, and data science projects across the public and private sectors, including roles at major Brazilian investment management firms such as Kapitalo Investimentos and Itaú Asset Management.</p>
       </article>
       <article>
         <h3><svg class="approach-icon" aria-hidden="true" focusable="false"
@@ -149,7 +149,7 @@ format:
   <path d="M7 11v4a2 2 0 0 0 2 2h4" />
   <rect width="8" height="8" x="13" y="13" rx="2" />
 </svg><span>End-to-End Delivery</span></h3>
-        <p>Going beyond statistical modeling, I combine data engineering and software development practices to build end-to-end analytical solutions, from data collection to delivery. This also allows me to collaborate effectively with IT teams to streamline and strengthen research workflows.</p>
+        <p>Beyond statistical modeling, I combine data engineering and software development practices to build end-to-end solutions, from data collection to delivery. This also allows me to collaborate with IT teams to streamline and strengthen operational workflows.</p>
       </article>
     </div>
   </section>

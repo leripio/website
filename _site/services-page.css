@@ -29,7 +29,7 @@
 .services-overview .overview-question a:hover, .overview-question a span { color: var(--accent); }
 .services-section { padding: 3rem 0; border-top: 1px solid var(--border); }
 #expertise.services-section { padding-bottom: 1.75rem; }
-.services-section-heading { max-width: 44rem; margin-bottom: 2rem; }
+.services-section-heading { margin-bottom: 2rem; }
 .services-wrap h2 { font-size: clamp(1.6rem, 2.8vw, 2.1rem); line-height: 1.2; margin: .6rem 0 .5rem; border-bottom: 0; padding-bottom: 0; }
 .services-section-heading p { margin-top: 0; margin-bottom: 0; }
 .expertise-list { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
