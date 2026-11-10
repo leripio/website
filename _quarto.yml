@@ -10,6 +10,7 @@ project:
 lang: en
 
 website:
+  google-analytics: "G-4HE60YY1JD"
   title: "João R. Leripio"
   description: "Data, Modeling & Research Engineering"
 
