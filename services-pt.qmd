@@ -131,8 +131,8 @@ format:
 >
   <path d="M12 5v16" />
   <path d="M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z" />
-</svg><span>Pesquisa e aprendizado</span></h3>
-        <p>Exploro novos métodos e ferramentas por meio de pesquisa e participação nas principais conferências da área, trazendo novas ideias para o dia-a-dia. Também compartilho conhecimento por meio de palestras e do meu livro de acesso aberto, que já alcançou mais de 55.000 leitores em mais de 50 países.</p>
+</svg><span>Atualização contínua</span></h3>
+        <p>Mantenho-me atualizado sobre os métodos e ferramentas mais recentes por meio de pesquisa e participação em conferências, incorporando esses avanços às soluções que desenvolvo. Também compartilho conhecimento por meio de palestras e do meu livro, <em>R for Economic Research</em>.</p>
       </article>
       <article>
         <h3><svg class="approach-icon" aria-hidden="true" focusable="false"
@@ -157,8 +157,8 @@ format:
 
   <section class="services-contact" id="contact" aria-labelledby="contact-title">
     <span class="section-kicker">Vamos trabalhar juntos</span>
-    <h2 id="contact-title">Conte o que você está desenvolvendo.</h2>
-    <p>Uma breve descrição do seu desafio e do resultado esperado é um ótimo ponto de partida. Se já tiver um formato em mente, conte também.</p>
+    <h2 id="contact-title">Vamos conversar sobre seu projeto?</h2>
+    <p>Conte um pouco sobre o desafio que você enfrenta ou o que gostaria de desenvolver. Podemos explorar juntos as possibilidades e encontrar a melhor forma de trabalhar.</p>
     <form class="contact-form" name="service-enquiry" method="POST" action="thank-you-pt.html" data-netlify="true" netlify-honeypot="website" data-language="pt-BR" aria-describedby="contact-form-hint">
       <input type="hidden" name="form-name" value="service-enquiry">
       <input type="hidden" name="language" value="pt-BR">
@@ -168,7 +168,7 @@ format:
         <div class="contact-field"><label for="contact-name">Nome <span aria-hidden="true">*</span></label><input id="contact-name" name="name" autocomplete="name" maxlength="150" required></div>
         <div class="contact-field"><label for="contact-email">E-mail <span aria-hidden="true">*</span></label><input id="contact-email" name="email" type="email" autocomplete="email" maxlength="254" required></div>
         <div class="contact-field"><label for="contact-organization">Organização <span class="field-optional">(opcional)</span></label><input id="contact-organization" name="organization" autocomplete="organization" maxlength="200"></div>
-        <div class="contact-field"><label for="contact-format">Como posso ajudar? <span class="field-optional">(opcional)</span></label><select id="contact-format" name="service"><option value="">Selecione um formato</option><option value="training">Treinamento</option><option value="consulting">Consultoria</option><option value="development">Desenvolvimento de projeto</option><option value="unsure">Vamos descobrir juntos</option></select></div>
+        <div class="contact-field"><label for="contact-format">Como posso ajudar? <span class="field-optional">(opcional)</span></label><select id="contact-format" name="service"><option value="">Selecione um formato</option><option value="training">Treinamento</option><option value="consulting">Consultoria</option><option value="development">Projeto</option><option value="unsure">Vamos descobrir juntos</option></select></div>
         <div class="contact-field"><label for="contact-country">País <span class="field-optional">(opcional)</span></label><input id="contact-country" name="country" autocomplete="country-name" maxlength="100"></div>
         <div class="contact-field"><label for="contact-state">Estado / região <span class="field-optional">(opcional)</span></label><input id="contact-state" name="state" autocomplete="address-level1" maxlength="100"></div>
       </div>
