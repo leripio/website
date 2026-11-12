@@ -6,6 +6,17 @@
   } catch {}
 
   const path = window.location.pathname;
+  if (path === '/form-confirmation' || path === '/form-confirmation.html') {
+    let submittedLanguage;
+    try {
+      submittedLanguage = sessionStorage.getItem('form-language');
+    } catch {}
+    const language = ['pt', 'en'].includes(submittedLanguage) ? submittedLanguage
+      : (['pt', 'en'].includes(preference) ? preference
+        : ((navigator.language || '').toLowerCase().startsWith('pt') ? 'pt' : 'en'));
+    window.location.replace('/' + language + '/thank-you.html');
+    return;
+  }
   if (path === '/' || path === '/index.html') {
     const language = ['pt', 'en'].includes(preference)
       ? preference

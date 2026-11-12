@@ -160,3 +160,11 @@ for page in PAGES:
             for extension in (".html", ""):
                 redirects.append(f"/{page}{suffix}{extension} {language_url(page, language)} 301")
 (OUTPUT / "_redirects").write_text("\n".join(redirects) + "\n")
+
+# Both translated Netlify forms share this success URL.
+(OUTPUT / "form-confirmation.html").write_text("""<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Message received</title>
+<script src="/language.js"></script></head><body>
+<p><a href="/pt/thank-you.html">Ver confirmação em português</a></p>
+<p><a href="/en/thank-you.html">View confirmation in English</a></p>
+</body></html>""")
