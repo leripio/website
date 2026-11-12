@@ -159,7 +159,7 @@ format:
 
     <h2 id="contact-title">Let's talk about your project</h2>
     <p>Tell me a little about the challenge you're facing or what you'd like to develop. We can explore the possibilities together and find the best way to work together.</p>
-    <form class="contact-form" name="service-enquiry" method="POST" action="thank-you.html" data-netlify="true" netlify-honeypot="website" data-language="en" aria-describedby="contact-form-hint">
+    <form class="contact-form" name="service-enquiry" method="POST" action="/en/thank-you.html" data-netlify="true" netlify-honeypot="website" data-language="en" aria-describedby="contact-form-hint">
       <input type="hidden" name="form-name" value="service-enquiry">
       <input type="hidden" name="language" value="en">
       <div hidden aria-hidden="true"><label>Leave this field empty <input name="website" tabindex="-1" autocomplete="off"></label></div>
